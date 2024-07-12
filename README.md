@@ -45,7 +45,7 @@ Python’s flexibility and efficiency have positioned it as a key player in mode
 
 ## Project Setup
 1. Install Python from the official [Python website](https://www.python.org/).
-2. Install PyCharm Community Edition
+2. Install PyCharm Community Edition [JetBrains website](https://www.jetbrains.com/pycharm/).
 
 ### Backend Setup (Django)
 
