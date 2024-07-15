@@ -27,6 +27,14 @@
 # company = "Luminar Technolab"
 # print("Hi, My name is", fullname, ". I am from", from_location, ". I am working as a ", designation, "at ", company)
 
+fullname = "Manu Mathew"
+from_location = "Kochi"
+designation = "Python Intern"
+company = "Luminar Technolab"
+
+print("Hi, My name is", fullname + ".", "I am from", from_location + ".", "I am working as a", designation, "at", company + ".")
+
+
 #integer
 age = 27
 print(age)
@@ -50,3 +58,4 @@ print(d)
 #set
 s = {'a', 'b', 'c', 'd'}
 print(s)
+
