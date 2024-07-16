@@ -38,24 +38,30 @@ print("Hi, My name is", fullname + ".", "I am from", from_location + ".", "I am 
 #integer
 age = 27
 print(age)
+print(type(age))
 
 #float
 height = 5.2
 print(height)
-
+print(type(height))
 #list
 li = [1, 2, 3, 4, 5]
 print(li)
+print(type(li))
+
 
 #tuple
 t = (1, 2, 3, 4)
 print(t)
+print(type(t))
 
 #dictionary
 d = {'name': 'manu', 'age': 27, 'height': 5.2}
 print(d)
+print(type(d))
 
 #set
 s = {'a', 'b', 'c', 'd'}
 print(s)
+print(type(s))
 
