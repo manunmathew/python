@@ -29,3 +29,6 @@ The `\n` sequence is used within strings to move the cursor to the next line whe
 **Example:**
 eg:  print("Employee Name =", name, "\nEmployee ID =", id, "\nSalary =", salary, "\nDesignation =", designation, "\nEmail Id =", email, "\nPhone Number =", phone)
 ```
+
+## Reference Code
+[View the user inputs code here](../code/userinputs.py)

@@ -19,3 +19,7 @@ age = 10
 height = 5.95
 print("Name: %s, Age: %d, Height: %.2f" % (name, age, height))
 ```
+
+
+## Reference Code
+[View the formatters code here](../code/formatters.py)
