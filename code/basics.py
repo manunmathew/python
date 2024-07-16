@@ -1,31 +1,31 @@
-# print("Hellow World")
-# print("My Name is Manu")
-#
-# name="Manu"
-# print(name)
-# first_name="Manu"
-# last_name="Mathew"
-# print(first_name)
-# print(last_name)
+print("Hellow World")
+print("My Name is Manu")
+
+name="Manu"
+print(name)
+first_name="Manu"
+last_name="Mathew"
+print(first_name)
+print(last_name)
 
 
-# company_name="Luminar"
-# location="Kakkanad"
-# print(company_name, "located in",location)
+company_name="Luminar"
+location="Kakkanad"
+print(company_name, "located in",location)
 
-# Create 4 variables
-# 1. fullname
-# 2. from
-# 3. designation
-# 4. company
+#Create 4 variables
+#1. fullname
+#2. from
+#3. designation
+#4. company
 
-# output : Hi, My name is Manu Mathew. I am from kochi. I am working as a python intern at Luminar Technolab
+#output : Hi, My name is Manu Mathew. I am from kochi. I am working as a python intern at Luminar Technolab
 
-# fullname = "Manu Mathew"
-# from_location = "Kochi"
-# designation = "Python Intern"
-# company = "Luminar Technolab"
-# print("Hi, My name is", fullname, ". I am from", from_location, ". I am working as a ", designation, "at ", company)
+fullname = "Manu Mathew"
+from_location = "Kochi"
+designation = "Python Intern"
+company = "Luminar Technolab"
+print("Hi, My name is", fullname, ". I am from", from_location, ". I am working as a ", designation, "at ", company)
 
 fullname = "Manu Mathew"
 from_location = "Kochi"

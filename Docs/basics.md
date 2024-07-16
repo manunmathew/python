@@ -62,3 +62,6 @@ A Python variable is a reserved memory location to store values. In other words,
 3. Can only contain alphanumeric characters and underscores (`_`).
 4. Case-sensitive (e.g., `AGE`, `age`, `Age` are three different variable names).
 5. Keywords cannot be used as variables (e.g., `and`, `or`, `if`, `def`).
+
+## Reference Code
+[View the basics code here](../code/basics.py)
