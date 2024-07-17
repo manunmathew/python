@@ -11,7 +11,8 @@
 - `//` : Floor Division
 
 **Note**:
-- Floor Division `//` rounds down to the nearest integer.
+- Division `/`  It ensures that the result of the division includes decimal points (i.e., it's a floating-point number), even if the division is between two integers. It also called float division.
+- Floor Division `//` rounds down to the nearest integer. Floor division, sometimes also called integer division.
 - Modulus `%` returns the remainder of the division of the left operand by the right operand. For example, `7 % 3` returns `1`.
 - Exponentiation `**` raises the left operand to the power of the right operand. For example, `2 ** 3` returns `8`.
 
