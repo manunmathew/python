@@ -1,4 +1,4 @@
-write a program to to add two numbers input by user
+#write a program to to add two numbers input by user
 
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
@@ -7,18 +7,14 @@ print(f"")
 sum = a+b
 print("Answeer =", sum)
 
-find the product, division , exponent, floor division of two number input by the user
+#find the product, division , exponent, floor division of two number input by the user
 
 
-product=
-exponent
-floor division
-reminder
 a = int(input("Enter first number: "))
 b = int(input("Enter second number: "))
 product = a * b
 division = a / b
-#exponent = a ** b
+exponent = a ** b
 floor_division = a // b
 remainder = a % b
 print(f"Product = {product}")
@@ -27,19 +23,20 @@ print(f"Exponent = {exponent}")
 print(f"Floor Division = {floor_division}")
 print(f"Remainder = {remainder}")
 
-write a program to find a the square of a number input by the use
-Enter a number:
-Square of 2 is 4
+#write a program to find a the square of a number input by the use
+#Enter a number:
+#Square of 2 is 4
 
 a = int(input("Enter a number: "))
 square = a ** 2
 print(f"Square of {a} is {square}")
 
-write a program to find cube of a number
-find area of circle, input radius
-find area of triangle 1/2 bh
-find square root of a number  (** 0.5)
-find the last digit of the number input by user (divided by 10)
+#write a program to find cube of a number
+#find area of circle, input radius
+#find area of triangle 1/2 bh
+#find square root of a number  (** 0.5)
+#find the last digit of the number input by user (divided by 10)
+
 
 # write a program to find cube of a number
 number = int(input("Enter a number to find its cube: "))
@@ -82,7 +79,7 @@ print(x2)
 
 #a =1, b = 5 , c = 6
 
-comparison
+#comparison
 
 a = int(input("Enter a: "))
 b = int(input("Enter b: "))
