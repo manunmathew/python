@@ -15,7 +15,7 @@ if (num >= 1 and num <= 10):
 num = int(input("Enter the number: "))
 if (num != 100):
    print("Welcome")
-take alphabet from user and it should print vowel if the user input a,e,i,o,u
+# take alphabet from user and it should print vowel if the user input a,e,i,o,u
 
 a = input("Enter the alphabet: ")
 vowel = ['a', 'e' , 'i', 'o', 'u']

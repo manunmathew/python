@@ -33,7 +33,7 @@ if (a%2==0):
     print(a, " is even number")
 else:
     print(a, " is odd number")
-write a program to check the number is divisible of 5
+# write a program to check the number is divisible of 5
 
 a = int(input("Enter the number: "))
 if (a%5==0):
@@ -42,10 +42,18 @@ else:
     print(a, " is not divisible of 5")
 
 
-Write a program to check the number is divisible by both 2 and 3 else
+# Write a program to check the number is divisible by both 2 and 3 else
 
 a = int(input("Enter the number: "))
 if (a%2==0 and a%3==0 ):
     print(a, " is divisible by both 2 and 3")
 else:
     print(a, " is not divisible by both 2 and 3")
+
+# eligible for vote
+
+age = float(input("Enter your age : "))
+if (age>= 18):
+    print("You are eligible to vote")
+else:
+    print("You are not eligible to vote")
