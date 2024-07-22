@@ -57,3 +57,20 @@ if (age>= 18):
     print("You are eligible to vote")
 else:
     print("You are not eligible to vote")
+
+# determine if a year is a leap year
+
+year = int(input("Enter a year: "))
+
+if (year % 4 == 0):
+    if (year % 100 == 0):
+        if (year % 400 == 0):
+            leap = True
+        else:
+            leap = False
+    else:
+        leap = True
+else:
+    leap = False
+
+print(leap)
