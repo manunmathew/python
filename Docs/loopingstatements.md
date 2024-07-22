@@ -50,8 +50,10 @@ Python's `for` loop is designed to repeatedly execute a code block while iterati
 
 ### Syntax of the for Loop
 ```python
+sequence = ""
 for value in sequence:
-    # code block
+#     code block
+    pass
 ```
 ```python
 # Python program to show how the for loop works
@@ -104,15 +106,10 @@ With the help of the `range()` function, we may produce a series of numbers. `ra
 
 ```python
 # Python program to show the working of range() function
-
 print(range(15))
-
 print(list(range(15)))
-
 print(list(range(4, 9)))
-
 print(list(range(5, 25, 4)))
-
 ```
 
 ## Using range() in a for Loop
