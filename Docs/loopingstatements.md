@@ -139,5 +139,8 @@ The `break` statement stops the execution of the loop when the break statement i
 The `pass` statement is used to create empty loops, classes, functions, and control statements.
 
 
+***Note***
+Harshad number: if the number is divisible by the sum of its digits
+
 
 
