@@ -87,11 +87,86 @@
 
 # print the series in revers order
 
-numbers = [10, 20, 30, 40, 50]
-i = len(numbers) - 1
-while i >= 0:
-    print(numbers[i])
-    i -= 1
+# numbers = [10, 20, 30, 40, 50]
+# i = len(numbers) - 1
+# while i >= 0:
+#     print(numbers[i])
+#     i -= 1
 
+#
+# i = 10
+# while i >= 1:
+#     print(i, end=' ')
+#     i -= 1
+# print()
+#print() is called to move to the next line after the loop completes.
+# write program to find reverse of a number input by the user
+#
+# n = int(input("Enter the number: "))
+# rev = 0
+# while n > 0 :
+#     rem = n % 10
+#     rev = rev * 10 + rem
+#     n //= 10
+# print ("The reverse of the number is: ", rev)
+# # write a program to check a number is Deserium or not without using len
+# n = int(input("Enter the number: "))
+# copy = n
+# sum = 0
+#
+# cn = n
+# count = 0
+# while cn >0 :
+#     cn //= 10
+#     count += 1
+# while n > 0 :
+#     rem = n % 10
+#     sum += rem ** count
+#     count -= 1
+#     n //= 10
+# if sum == copy:
+#     print(f"{copy} is a Deserium number.")
+# else:
+#     print(f"{copy} is not a Deserium number.")
 
+# # check a number is palindrome or not user input
+#
+# n = int(input("Enter the number: "))
+# copy = n
+# rev = 0
+# while n > 0 :
+#     rem = n % 10
+#     rev = rev * 10 + rem
+#     n //= 10
+# if copy == rev:
+#     print(f"{copy} is a Palindromic number.")
+# else:
+#     print(f"{copy} is not a Palindromic number.")
+# # check a number is Harshad or not
 
+# n = int(input("Enter the number: "))
+# sum = 0
+# copy = n
+# while n > 0:
+#     rem = n % 10
+#     sum =+ rem
+#     n //= 10
+#
+# if copy % sum == 0:
+#     print(f"{copy} is a Harshad number.")
+# else:
+#     print(f"{copy} is not a Harshad number.")
+
+#  Armstrong Numbers
+n = int(input("Enter the number: "))
+copy = n
+sum = 0
+len = len(str(n))
+while n > 0 :
+    rem = n % 10
+    sum += rem ** len
+    n //= 10
+if sum == copy:
+    print(f"{copy} is a Armstrong number.")
+else:
+    print(f"{copy} is not a Armstrong number.")
