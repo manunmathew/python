@@ -119,8 +119,11 @@ To iterate through a sequence of items, we can apply the `range()` method in `fo
 While loops are used in Python to iterate until a specified condition is met. However, the statement in the program that follows the `while` loop is executed once the condition changes to false.
 
 ### Syntax of the while Loop
-
-
+```python
+while condition:
+    # Code block to be executed
+    # This code block will execute as long as the condition is true
+```
 ## Using else Statement with while Loop
 The `else` statement can be used with the `while` loop. It has the same syntax as used with the `for` loop.
 
