@@ -18,8 +18,14 @@ A Deserium number (also known as a Narcissistic number) is a number that is the 
 Armstrong numbers (or Pluperfect numbers) are similar to Deserium numbers in that they are numbers that are equal to the sum of their own digits each raised to the power of the number of digits. Essentially, Armstrong numbers are a subset of Deserium numbers.
 
 **Examples:**
-- **153:** As explained above, 153 is both a Deserium and an Armstrong number.
+- **153:** As explained above, 153 is both a Deserium and an Armstrong
+number.
+1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153
 - **370:** Similarly, 370 is both a Deserium and an Armstrong number.
+- **89:**
+8^1 + 9^2 = 8 + 81 = 89
+8^2 + 9^2 = 64 + 81 = 145
+So, 89 is a number that is a Deserium number but not an Armstrong number.
 
 ## 4. Perfect Numbers
 A perfect number is a positive integer that is equal to the sum of its proper divisors (excluding the number itself).
