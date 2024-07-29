@@ -3,6 +3,7 @@
 ## Print Function
 - `print()`: Function to print the output to the console.
 - `type()`: Function to print the type of the variable
+- `exit()`: Function to exit the program 
 
 ## Comments
 - `#`: Used for single-line comments.
