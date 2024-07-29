@@ -132,6 +132,7 @@ The loop can be declared in a single statement, similar to the if-else block.
 
 ## Detailed Examples of Loop Control Statements
 
+
 ### Continue Statement
 The `continue` statement returns the control to the beginning of the loop.
 
@@ -141,9 +142,8 @@ The `break` statement stops the execution of the loop when the break statement i
 ### Pass Statement
 The `pass` statement is used to create empty loops, classes, functions, and control statements.
 
-
 ***Note***
-Harshad number: if the number is divisible by the sum of its digits
+Loop Control Statements work only inside loop
 
 
 

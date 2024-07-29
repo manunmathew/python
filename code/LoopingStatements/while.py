@@ -157,16 +157,57 @@
 # else:
 #     print(f"{copy} is not a Harshad number.")
 
-#  Armstrong Numbers
-n = int(input("Enter the number: "))
-copy = n
-sum = 0
-len = len(str(n))
-while n > 0 :
-    rem = n % 10
-    sum += rem ** len
-    n //= 10
-if sum == copy:
-    print(f"{copy} is a Armstrong number.")
-else:
-    print(f"{copy} is not a Armstrong number.")
+# #  Armstrong Numbers
+# n = int(input("Enter the number: "))
+# copy = n
+# sum = 0
+# len = len(str(n))
+# while n > 0 :
+#     rem = n % 10
+#     sum += rem ** len
+#     n //= 10
+# if sum == copy:
+#     print(f"{copy} is a Armstrong number.")
+# else:
+#     print(f"{copy} is not a Armstrong number.")
+# Fibonacci Numbers
+# num = int(input("Enter the number of Fibonacci numbers to generate: "))
+# a,b = 0,1
+# print(a)
+# print(b)
+# count = 2
+# while count < num :
+#     c = a + b
+#     print(c)
+#     a = b
+#     b = c
+#     count += 1
+
+
+#write a program to enter the numbers till the user input zero or negative value and at the end it should display the sum of positive entered by the user
+# sum = 0
+# while True :
+#     n = int(input("Enter the number: "))
+#     if n <= 0:
+#         break
+#     sum += n
+# print(f"The sum of positive numbers entered is: {sum}")
+
+# write a program to take input from the user till the user input 0 and at the end it should display the count of even numbers and odd numbers
+
+even = 0
+odd = 0
+while True :
+    n = int(input("Enter the number: "))
+    if n == 0:
+        break
+    elif n %2 == 0:
+        even += 1
+    else:
+        odd += 1
+print(f"number of even numbers: {even}")
+print(f"number of odd numbers: {odd}")
+
+
+# write a program to print Armstrong numbers fall in the range 1-1000
+
