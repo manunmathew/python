@@ -8,14 +8,27 @@ A Harshad number (or Niven number) is an integer that is divisible by the sum of
 - **21:** The sum of its digits is 2 + 1 = 3, and 21 is divisible by 3.
 
 ## 2. Deserium Numbers (Narcissistic Numbers)
-A Deserium number (also known as a Narcissistic number) is a number that is the sum of its own digits each raised to the power of the number of digits.
+Given a number “n”, find if it is Disarium or not. A number is called Disarium if sum of its digits powered with their respective positions is equal to the number itself.
 
 **Examples:**
-- **153:** It has 3 digits, and \( 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153 \).
-- **370:** It has 3 digits, and \( 3^3 + 7^3 + 0^3 = 27 + 343 + 0 = 370 \).
+
+Input   : n = 135
+Output  : Yes
+1^1 + 3^2 + 5^3 = 135
+Therefore, 135 is a Disarium number
+
+Input   : n = 89
+Output  : Yes
+8^1+9^2 = 89
+Therefore, 89 is a Disarium number
+
+Input   : n = 80
+Output  : No
+8^1 + 0^2 = 8
+
 
 ## 3. Armstrong Numbers
-Armstrong numbers (or Pluperfect numbers) are similar to Deserium numbers in that they are numbers that are equal to the sum of their own digits each raised to the power of the number of digits. Essentially, Armstrong numbers are a subset of Deserium numbers.
+An Armstrong number (named so after Michael F. Armstrong), also called a narcissistic number, a pluperfect digital invariant, or a plus perfect number, is a number that is equal to the sum of its own digits when they are raised to the power of the number of digits. As an example, the smallest Armstrong number is 153, which is equal to .
 
 **Examples:**
 - **153:** As explained above, 153 is both a Deserium and an Armstrong
