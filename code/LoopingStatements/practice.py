@@ -93,9 +93,101 @@
  # Write a program to find the sum of digits of a number input by the user
 # # write a program to find the product of digits of a number input by user
 # # write a program to find a number is harshad or not
-# # Harshad number: if the number is divisible by the sum of its digits
-# # Write a program to find a number is Deserium or not
-#
+# For
+# n= int(input("Enter the number: "))
+# s = 0
 
-# Fibonacci Numbers
+# for i in str(n):
+#     s += int(i)
+# if n % s == 0:
+#     print(f"The number {n} is Harshad")
+# else:
+#     print(f"The number {n} is not Harshad")
+
+# # while
+# n= int(input("Enter the number: "))
+# copy = n
+# s = 0
+# while n > 0 :
+#     digit = n % 10
+#     s += digit
+#     n //= 10
+# if copy % s == 0:
+#     print(f"The number {copy} is Harshad")
+# else:
+#     print(f"The number {copy} is not Harshad")
+
+
+# # Harshad number: if the number is divisible by the sum of its digits
+# # Write a program to find a number is Disarium or not
+
+# n = int(input("Enter the number: "))
+# s = 0
+# count = 1
+
+# for i in str(n):
+#     s += int(i) ** count
+#     count += 1
+
+# if n == s:
+#     print(f"The number {n} is Disarium ")
+# else:
+#     print(f"The number {n} is not Disarium ")
+
+# While
+
+# n = int(input("Enter the number: "))
+# c = n
+# s = 0
+# count = len(str(n))
+
+# while count > 0:
+#     digi = n % 10
+#     s += digi ** count
+#     n //= 10
+#     count -= 1
+
+# if c == s:
+#     print(f"The number {c} is Disarium ")
+# else:
+#     print(f"The number {c} is not Disarium ")
+
+
+# # Fibonacci Numbers
+# n = int(input("Enter the number: "))
+# a = 0
+# b = 1
+
+# if n >= 1:
+#     print(a, end=", ")
+# if n >= 2:
+#     print(b, end=", ")
+
+# for i in range(2, n):
+#     a, b = b, a + b
+#     print(b, end=", ")
+
+# # Fibonacci Numbers
+# n = int(input("Enter the number: "))
+# a = 0
+# b = 1
+# print(a, end= " ,")
+# print(b, end= " ,")
+# count = 2
+# while count < n:
+#     a,b = b, a+b
+#     print(b, end= " ,")
+#     count += 1
+
+
 # write a program to print Armstrong numbers fall in the range 1-1000
+
+n = int(input("Enter the number: "))
+length = len(str(n))
+s = 0
+for i in str(n):
+    s += int(i) ** length
+if n == s:
+    print(f"The number {n} is an Armstrong number ")
+else:
+    print(f"The number {n} is not an Armstrong number ")
