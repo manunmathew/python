@@ -182,12 +182,66 @@
 
 # write a program to print Armstrong numbers fall in the range 1-1000
 
-n = int(input("Enter the number: "))
-length = len(str(n))
-s = 0
-for i in str(n):
-    s += int(i) ** length
-if n == s:
-    print(f"The number {n} is an Armstrong number ")
-else:
-    print(f"The number {n} is not an Armstrong number ")
+# n = int(input("Enter the number: "))
+# length = len(str(n))
+# s = 0
+# for i in str(n):
+#     s += int(i) ** length
+# if n == s:
+#     print(f"The number {n} is an Armstrong number ")
+# else:
+#     print(f"The number {n} is not an Armstrong number ")
+
+# # print pattern
+# Enter the Number: 5
+# * * * * *
+# * * * *
+# * * *
+# * *
+# *
+# n = int(input("Enter the Number: "))
+
+# for i in range(n, 0, -1):
+#     for j in range(i):
+#         print("*", end=" ")
+#     print()
+
+
+# n = int(input("Enter the Number: "))
+
+# for i in range(n+1):
+#     for s in range(n, i, -1):
+#         print(" ", end=" ")
+#     for j in range(i):
+#         print("*", end="   ")
+#     print()
+# print()
+
+
+# rows = int(input("Enter the number of rows: "))
+
+# for i in range(rows):
+#     for j in range(rows -i -1):
+#         print(" ", end=" ")
+#     for j in range(i + 1):
+#         print("*", end="   ")
+#     print()
+
+# Print a diamond pattern with stars.
+n = int(input("Enter the Number: "))
+
+
+for i in range(n):
+    for s in range(n - i - 1):
+        print(" ", end="")
+    for j in range(i + 1):
+        print("* ", end="")
+    print()
+
+
+for i in range(n - 1):
+    for s in range(i + 1):
+        print(" ", end="")
+    for j in range(n - i - 1):
+        print("* ", end="")
+    print()
