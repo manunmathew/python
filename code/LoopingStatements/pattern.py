@@ -83,7 +83,7 @@
 #         print("* ", end="")
 #     print()
 
-n = int(input("Enter the Number od rows: "))
+s = input("Enter the String: ")
 
 
 for i in range(n):

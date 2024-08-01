@@ -82,3 +82,40 @@
 
 ## Reference Code
 [View the basics code here](../code/DataType/String/StringOperation.py)
+
+
+String Concatenation
+
+To concatenate, or combine, two strings you can use the + operator.
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+String join() Method
+The join() method takes all items in an iterable and joins them into one string.
+
+A string must be specified as the separator.
+myDict = {"name": "John", "country": "Norway"}
+mySeparator = " "
+
+x = mySeparator.join(myDict)
+
+print(x)
+
+% operator
+
+a = "Hello"
+b = "World"
+print("%s%s" % (a,b) )
+
+format() Method
+The format() method formats the specified value(s) and insert them inside the string's placeholder.
+
+The placeholder is defined using curly brackets: {}. Read more about the placeholders in the Placeholder section below.
+
+The format() method returns the formatted string.
+
+print("{}{}".format(a,b))
+
+
