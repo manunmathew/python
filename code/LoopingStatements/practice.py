@@ -228,20 +228,57 @@
 #     print()
 
 # Print a diamond pattern with stars.
-n = int(input("Enter the Number: "))
+# n = int(input("Enter the Number: "))
 
 
-for i in range(n):
-    for s in range(n - i - 1):
-        print(" ", end="")
-    for j in range(i + 1):
-        print("* ", end="")
-    print()
+# for i in range(n):
+#     for s in range(n - i - 1):
+#         print(" ", end="")
+#     for j in range(i + 1):
+#         print("* ", end="")
+#     print()
 
 
-for i in range(n - 1):
-    for s in range(i + 1):
-        print(" ", end="")
-    for j in range(n - i - 1):
-        print("* ", end="")
-    print()
+# for i in range(n - 1):
+#     for s in range(i + 1):
+#         print(" ", end="")
+#     for j in range(n - i - 1):
+#         print("* ", end="")
+#     print()
+
+
+# ------------.|.------------
+# ---------.|..|..|.---------
+# ------.|..|..|..|..|.------
+# ---.|..|..|..|..|..|..|.---
+# ----------WELCOME----------
+# ---.|..|..|..|..|..|..|.---
+# ------.|..|..|..|..|.------
+# ---------.|..|..|.---------
+# ------------.|.------------
+
+
+# n = 9
+# m = 27
+
+# t = n//2
+# u = 1
+# mid = ".|."
+# text= "WELCOME"
+# for i in range(1, t+1):
+#      print((mid * u).center(m, '-'))
+#      u += 2
+# print((text).center(m, '-'))
+# for i in range(t, 0, -1):
+#      u -= 2
+#      print((mid * u).center(m, '-'))
+
+s = "1 w 2 r 3g"
+x = str(s.split())
+for i in x:
+    ot = " ".join(i.capitalize())
+print(ot)
+
+
+# 1 W 2 R 3g
+
