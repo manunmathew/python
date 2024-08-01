@@ -9,15 +9,35 @@
 
 ## Creating a List
 
-Lists in Python are created by placing a comma-separated sequence of elements within square brackets. Lists can contain any type of data, including other lists.
-
     mylist = ["Manu", "Aswin", "Ajal", "Niyas"]
 
 ## Accessing Elements
 
 Elements in a list can be accessed by their index, which starts from 0. Negative indices can also be used to access elements from the end of the list.
 
+- **Print the type of the list**:
+
+    ```python
+    print(type(mylist))  # Output: <class 'list'>
+    ```
+
+- **Access and print the first element in the list**:
+
+    ```python
     print(mylist[0])  # Output: Manu
+    ```
+
+- **Access and print elements from index 0 to 6**:
+
+    ```python
+    print(mylist[0:7])  # Output: ['Manu', 'Aswin', 'Ajal', 'Niyas', 1, 2, 3]
+    ```
+
+- **Access and print the last element in the list**:
+
+    ```python
+    print(mylist[-1])  # Output: 4
+    ```
 
 ## Updating a List
 
