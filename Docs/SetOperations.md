@@ -83,3 +83,6 @@ Gets elements that are present in either of the sets, but not in both.
   ```python
   set1.symmetric_difference(set2)
   ```
+
+## Reference Code
+[View the code here](../code/DataType/Set/set.py)

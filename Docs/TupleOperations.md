@@ -1,7 +1,5 @@
 # Tuple Operations in Python
 
-## What is a Tuple?
-
 A tuple is a collection which is ordered and unchangeable. Tuples are written with round brackets.
 
 ### Creating a Tuple
@@ -30,20 +28,6 @@ Tuples are unchangeable, meaning that you cannot change, add, or remove items on
 del x
 ```
 
-### Tuple Operations Example
-
-Here's a complete example demonstrating tuple creation, accessing elements, and deletion:
-
-```python
-x = (1, 2, 3, 4, "python", "Django")
-
-# Access tuple elements
-print(type(x))  # Output: <class 'tuple'>
-print(x[0])     # Output: 1
-print(x[-1])    # Output: Django
-
-# Delete tuple
-del x
-```
-
+## Reference Code
+[View the code here](../code/DataType/Tuple/Tuple.py)
 
