@@ -5,12 +5,12 @@ list2 = list(input("Enter the second list of elements separated by spaces: ").sp
 count = 0
 elements = []
 for i in list1:
-    if i in list2:
+    if i in list2 and i not in elements:
         elements.append(i)
         count += 1
 if elements:
     print(f"Common elements are: {elements}")
 else:
     print("No common elements found.")
-print(f"Number of common element is: {count}")
+print(f"Number of common element is: {len(elements)}")
 
