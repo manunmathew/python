@@ -86,12 +86,12 @@
 s = input("Enter the String: ")
 
 
-for i in range(n):
+for i in range(s):
     for j in range(i + 1):
         print("* ", end="")
     print()
-for i in range(n-1):
-    for j in range(n-i-1):
+for i in range(s-1):
+    for j in range(s-i-1):
         print("* ", end="")
     print()
 
