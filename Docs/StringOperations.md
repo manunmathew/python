@@ -79,6 +79,8 @@
   - Example:
     - `print(x.count("to"))` returns the number of times 'to' appears in the string
 
+
+
 ## String Concatenation in Python
 
 In Python, there are multiple ways to concatenate, or combine, strings. Here are some common methods:
@@ -126,6 +128,32 @@ print("{}{}".format(a, b))  # Output: HelloWorld
 - **`join()` Method**: Useful for joining an iterable with a specified separator.
 - **`%` Operator**: Similar to C-style string formatting.
 - **`format()` Method**: Flexible and allows for more complex formatting.
+
+### Using the `replace()` Method
+
+The `replace()` method replaces a specified phrase with another specified phrase.
+
+    string.replace(oldvalue, newvalue, count)
+
+- **Parameter Description**
+  - `oldvalue`: Required. The string to search for.
+  - `newvalue`: Required. The string to replace the old value with.
+  - `count`: Optional. A number specifying how many occurrences of the old value you want to replace. Default is all occurrences.
+
+### `strip()` Method
+
+The `strip()` method removes any leading and trailing whitespaces.
+
+    txt = "     banana     "
+    x = txt.strip()
+    print(x)
+
+Output:
+
+    banana
+
+- **`lstrip()`**: Returns a left-trimmed version of the string.
+- **`rstrip()`**: Returns a right-trimmed version of the string.
 
 
 ## Reference Code

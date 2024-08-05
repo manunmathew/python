@@ -25,3 +25,29 @@
 6. Python program to print the number of elements present in an array
 
    [View the code here](../code/DataType/Assignments/6.py)
+
+### Additional Exercises
+
+7. Write a program to reverse a list without using `reverse()`
+
+   [View the code here](../code/DataType/Assignments/7.py)
+
+8. Check if a string input by the user is a palindrome or not
+
+   [View the code here](../code/DataType/Assignments/8.py)
+
+9. Find the count of uppercase and lowercase letters in a string input by the user
+
+   [View the code here](../code/DataType/Assignments/9.py)
+
+10. Remove spaces from a string input by the user
+
+    [View the code here](../code/DataType/Assignments/10.py)
+
+11. Find the largest element in the given array
+
+    [View the code here](../code/DataType/Assignments/11.py)
+
+12. Input a string from the user and find the number of integer alphabets in the string
+
+    [View the code here](../code/DataType/Assignments/12.py)
