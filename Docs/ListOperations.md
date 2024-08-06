@@ -109,6 +109,38 @@ The `clear()` method removes all elements from the list, leaving it empty.
     mylist.clear()
     <!-- Result: [] -->
 
+### Using `.sort()`
+
+The `sort()` method sorts the list in ascending order by default.
+
+Usage:
+
+    list.sort(reverse=True|False, key=myFunc)
+
+- **reverse**: Optional. `reverse=True` will sort the list in descending order. Default is `reverse=False`.
+- **key**: Optional. A function to specify the sorting criteria(s).
+
+Example:
+
+    my_list = [3, 1, 4, 1, 5, 9]
+    my_list.sort(reverse=True)
+    print(my_list)  # Output: [9, 5, 4, 3, 1, 1]
+
+### Using `.reverse()`
+
+The `reverse()` method reverses the sorting order of the elements.
+
+Usage:
+
+    list.reverse()
+
+Example:
+
+    my_list = [3, 1, 4, 1, 5, 9]
+    my_list.reverse()
+    print(my_list)  # Output: [9, 5, 1, 4, 1, 3]
+
+
 ## Differences Between Arrays and Lists
 
 - **Lists**:

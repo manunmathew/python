@@ -1,6 +1,13 @@
- # Remove space from a string input by user
+#  # Remove space from a string input by user
+# s = input("Enter a string: ")
+
+# rmspaces = s.replace(" ", "")
+
+# print(f"String without spaces: '{rmspaces}'")
+
 s = input("Enter a string: ")
-
-rmspaces = s.replace(" ", "")
-
-print(f"String without spaces: '{rmspaces}'")
+new = ""
+for i in s:
+    if i != " ":
+        new += i
+print(new)
