@@ -69,3 +69,19 @@
 #     reversed_string = key[::-1]
 #     mydict.update({key: reversed_string})
 # print(mydict)
+# Calculate the bonus for each employee based on their performance score:
+# If the score is 90 or above, the bonus is 20% of the score.
+# If the score is between 80 and 89, the bonus is 10% of the score.
+# If the score is below 80, there is no bonus.
+
+n = int(input("Enter number of employees: "))
+mydict = {}
+for i in range(n):
+    key = input("Employee Name: ")
+    value = input("Employee Performance score: ")
+    mydict[key] = value
+sorted_dict = list(dict(sorted(mydict.items())))
+for i in range(len(sorted_dict)):
+    if int(sorted_dict[i[1]]) > 20 :
+
+
