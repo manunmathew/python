@@ -113,6 +113,9 @@
 
 
 # even position
-b = "Hello, World!"
-print(b[:: 2])
-print(b[2 :: 2])
+# b = "Hello, World!"
+# print(b[:: 2])
+# print(b[2 :: 2])
+
+
+
