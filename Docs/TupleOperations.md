@@ -27,6 +27,18 @@ Tuples are unchangeable, meaning that you cannot change, add, or remove items on
 ```python
 del x
 ```
+### Using `.count()`
+
+count()	Returns the number of times a specified value occurs in a tuple
+
+### Using `.index()`
+index()	Searches the tuple for a specified value and returns the position of where it was found
+The index() method finds the first occurrence of the specified value.
+
+The index() method raises an exception if the value is not found.
+
+###  slicing
+print(thistuple[2:5])
 
 ## Reference Code
 [View the code here](../code/DataType/Tuple/Tuple.py)
