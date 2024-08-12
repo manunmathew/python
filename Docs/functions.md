@@ -44,6 +44,22 @@ Variables used in functions can be classified into two categories:
     print_local()  # Output: I am local
 
 
-
 ## Reference Code
 [View the code here](../code/Functions/basic.py)
+
+
+## Arguments
+Values can be passed into functions as arguments.
+
+### Positional Arguments
+You can specify that a function can have ONLY positional arguments, or ONLY keyword arguments.
+'''python
+def add(a, b):
+    print(a + b)
+
+add(a = 1, b = 2)
+,,,
+
+
+## Reference Code
+[View the code here](../code/Functions/arguments.py)

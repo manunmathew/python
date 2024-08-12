@@ -54,4 +54,4 @@ def first():
     print(count)
 first()
 
-print(count) # can not access outside the function as it is local variable.
+# print(count) # can not access outside the function as it is local variable.
