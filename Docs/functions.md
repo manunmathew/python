@@ -53,12 +53,12 @@ Values can be passed into functions as arguments.
 
 ### Positional Arguments
 You can specify that a function can have ONLY positional arguments, or ONLY keyword arguments.
-'''python
+```python
 def add(a, b):
     print(a + b)
 
 add(a = 1, b = 2)
-,,,
+```
 
 
 ## Reference Code
