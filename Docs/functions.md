@@ -44,7 +44,7 @@ Variables used in functions can be classified into two categories:
     print_local()  # Output: I am local
 
 
-## Reference Code
+#### Reference Code
 [View the code here](../code/Functions/basic.py)
 
 
@@ -57,9 +57,20 @@ You can specify that a function can have ONLY positional arguments, or ONLY keyw
 def add(a, b):
     print(a + b)
 
-add(a = 1, b = 2)
+add(a 1, b 2)
 ```
 
 
-## Reference Code
+#### Reference Code
 [View the code here](../code/Functions/arguments.py)
+
+
+### Arbitrary Arguments
+    Many arguments that will be passed into your function. add a * before the parameter name in the function definition.
+    This way the function will receive a tuple of arguments, and can access the items accordingly:
+```python
+def num(*a):
+    print(a)
+
+num(1,2,3,4,5,a,b)
+```
