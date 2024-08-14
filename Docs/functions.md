@@ -57,7 +57,7 @@ You can specify that a function can have ONLY positional arguments, or ONLY keyw
 def add(a, b):
     print(a + b)
 
-add(a 1, b 2)
+add(1,2)
 ```
 
 
@@ -73,4 +73,36 @@ def num(*a):
     print(a)
 
 num(1,2,3,4,5,a,b)
+```
+###  Default Arguments Value
+If we call the function without argument, it uses the default value
+
+```python
+def my_function(country = "Norway"):
+  print("I am from " + country)
+
+my_function()
+my_function("India")
+```
+
+###  Keyword Arguments
+You can also send arguments with the key = value syntax.
+
+
+```python
+def add(a, b):
+    print(a + b)
+
+add(a=1, b=2) # This way the order of the arguments does not matter.
+```
+### Arbitrary Keyword Arguments, **kwargs
+If you do not know how many keyword arguments that will be passed into your function, add two asterisk: ** before the parameter name in the function definition.
+
+This way the function will receive a dictionary of arguments, and can access the items accordingly:
+
+```python
+def person(**data):
+    print(data)
+
+person(fname = "Manu ", lname = "Mathew")
 ```

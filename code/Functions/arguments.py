@@ -203,5 +203,60 @@ def type_of(*a):
 
 type_of(1, 2, 3, 4, 5, "a", "b")
 
+# calculate the LCM (Least Common Multiple) of two numbers
+
+def lcm(a, b):
+    if a > b:
+        higher = a
+    else:
+        higher = b
+
+    value = higher
+    while True:
+        if higher % a == 0 and higher % b == 0:
+            print (higher)
+            break
+        else:
+            higher += value
+
+
+lcm(2, 3)
+# calculate the HCF
+
+def hcf(a, b):
+    if a < b:
+        smallest = a
+    else:
+        smallest = b
+
+    for i in range(1, smallest + 1):
+        if a % i == 0 and b % i == 0:
+            ans = i
+    print(ans)
+
+hcf(8, 12)
+
+#  Default Arguments Value
+def my_function(country = "Norway"):
+    print("I am from " + country)
+
+my_function()
+my_function("India")
+
+# Create a function add() using default argument
+def add(a, b=0, c=0, d=0):
+    print(a + b + c + d)
+add(1, 2, 3, 4)
+add(1, 2, 3)
+add(1, 2)
+add(1)
+
+# Arbitrary Keyword Arguments, **kwargs
+
+def person(**data):
+    print(data)
+
+person(fname = "Manu ", lname = "Mathew")
+
 
 
