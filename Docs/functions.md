@@ -106,3 +106,11 @@ def person(**data):
 
 person(fname = "Manu ", lname = "Mathew")
 ```
+### Return Values
+To let a function return a value, use the return statement
+```python
+def my_function(x):
+  return 5 * x
+
+print(my_function(3))
+```
