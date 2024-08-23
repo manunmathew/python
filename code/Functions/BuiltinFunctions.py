@@ -59,4 +59,14 @@ li = [8,3,1,2,3,4,5]
 x = reduce(lambda a,b : b if a < b else a, li)
 print (x)
 
+def print_fibonacci(n, a=0, b=1):
+    # Base case: if n is 0, stop the recursion
+    if n == 0:
+        return
+    # Print the current Fibonacci number
+    print(a, end=' ')
+    # Recursive case: call the function with updated values
+    print_fibonacci(n - 1, b, a + b)
 
+# Example usage: print the first 10 Fibonacci numbers
+print_fibonacci(0)
