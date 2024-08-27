@@ -3,14 +3,14 @@ import time
 # localtime()
 
 
-t = time.localtime()
-print(t)
+# t = time.localtime()
+# print(t)
 
-print("Year: ", t.tm_year)
-print("Month: ", t.tm_mon)
-print("Day: ",t.tm_mday)
-a = time.asctime()
-print(a)
+# print("Year: ", t.tm_year)
+# print("Month: ", t.tm_mon)
+# print("Day: ",t.tm_mday)
+# a = time.asctime()
+# print(a)
 
 # sleep .. to add delay in execution
 # time.sleep()
