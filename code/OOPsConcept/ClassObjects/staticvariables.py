@@ -1,21 +1,21 @@
-# class Employee:
-#         company_name='TCS'
-#         company_email='tcs@gmail.com'
-#         def emp_details(self, name, email):
-#             self.name=name
-#             self.email=email
-#         def display(self):
-#             print( 'company name=', Employee. company_name)
-#             print( 'Company Email',Employee.company_email)
-#             print(self.name)
-#             print(self.email)
+class Employee:
+        company_name='TCS'
+        company_email='tcs@gmail.com'
+        def emp_details(self, name, email):
+            self.name=name
+            self.email=email
+        def display(self):
+            print( 'company name=', Employee. company_name)
+            print( 'Company Email',Employee.company_email)
+            print(self.name)
+            print(self.email)
 
-# obj1=Employee ()
-# obj1.emp_details('Amal','amal@gmail.com')
-# obj2=Employee ()
-# obj2.emp_details('Arun','arun@gmail.com')
-# obj1.display()
-# obj2.display()
+obj1=Employee ()
+obj1.emp_details('Amal','amal@gmail.com')
+obj2=Employee ()
+obj2.emp_details('Arun','arun@gmail.com')
+obj1.display()
+obj2.display()
 
 
 # Create a class ecommerce with methods
