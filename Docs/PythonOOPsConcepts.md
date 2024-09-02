@@ -8,11 +8,11 @@ Function that defined inside class is known as member function or methods
 Class Definition Syntax:
 
 class ClassName:
-   # Statement-1
+    Statement-1
    .
    .
    .
-   # Statement-N
+    Statement-N
 
 ## Python Objects
 
@@ -57,6 +57,16 @@ class Parent:
 class Child(Parent):
     def child_method(self):
         print("This is the child method.")
+```
+#### super()
+ Supper function in python is used to give access in base class
+```python
+class A():
+    def __init__(self,a,b):
+
+class B(A):
+    def __init__(self,a,b):
+        super().__init__(a,b)
 ```
 ### 2. Multiple Inheritance
 In multiple inheritance, a child class inherits from more than one parent class, allowing it to access properties and methods of all its parent classes.
