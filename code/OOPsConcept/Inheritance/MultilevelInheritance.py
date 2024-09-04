@@ -86,7 +86,7 @@ class Car(Vehicle):
     def display_car_info(self):
         print("No of doors: ", self.No_doors)
 class ElectricCar(Car):
-    def __init__(self, make, model, year,No_doors, battery_capacity):
+    def __init__(self, make, model, year, No_doors, battery_capacity):
         super().__init__(make, model, year, No_doors)
         self.battery = battery_capacity
     def display_electric_car_info(self):
@@ -97,3 +97,4 @@ class ElectricCar(Car):
         self.display_electric_car_info()
 electric_car = ElectricCar("Tesla", "Model S", 2022, 4, "100 kWh")
 electric_car.display()
+electric_car.display_vehicle_info()
