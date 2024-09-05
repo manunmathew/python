@@ -137,3 +137,5 @@ class Child(Parent1, Parent2):
     def child_method(self):
         print("This is the child method.")
 ```
+
+
