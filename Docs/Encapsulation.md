@@ -66,6 +66,25 @@ obj = SubExample()
 print(obj.access_protected())  # Accessible within the subclass
 ```
 
+### Name mangling
+The name mangling process helps to access the class variables from outside the class. The class variables can be accessed by adding _classname to it
+```python
+
+class ExampleClass:
+    def __init__(self):
+        self.__private_var = "I am private!"
+
+# Create an instance
+example = ExampleClass()
+
+# Accessing the variable directly will cause an error
+# print(example.__private_var)  # This raises an AttributeError
+
+# Name mangling allows access with the class name prefix
+print(example._ExampleClass__private_var)  # Output: I am private!
+
+
+```
 ### Summary
 - **Public**: Accessible from anywhere.
 - **Private**: Accessible only within the class (name mangling can be used to access).
