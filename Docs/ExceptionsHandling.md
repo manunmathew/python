@@ -1,6 +1,6 @@
 # Exceptions Handling
 
-Exceptions : Exceptions are un wanted errors that occurs during the run time of a program
+Exceptions : Exceptions are unwanted errors that occurs during the run time of a program
 if you have some suspicious code that may raise an exception you can defend your program by placing the suspicious code in try and except block to handle the error
 
 
