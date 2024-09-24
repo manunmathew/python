@@ -21,4 +21,18 @@ except AssertionError as e:
 Output: Age must be at least 18
 ```
 
+# Raise keyword Exception Handling
+Python raise Keyword is used to raise exceptions or errors. to manually trigger an exception
 
+```python
+try:
+	num = int(input("Enter a number"))
+    if num >= 1 and num <= 10 :
+        print("Success")
+    else:
+        raise Exeption:
+
+except Exeption:
+	print("Please input a number between 1 and 10")
+
+```
