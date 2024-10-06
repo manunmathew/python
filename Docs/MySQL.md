@@ -55,4 +55,18 @@ select Emp_name,Email,Designation from table_name
 
 select * from table_name where id = 1
 select * from Employee_details order by Emp_name; # assending
-select * from Employee_details order by Emp_name desc;  # descenting 
+select * from Employee_details order by Emp_name desc;  # descenting
+
+
+
+
+drop database databasename
+drop table table_name
+truncate table table_na,e
+reanme table old_name to new_name
+
+
+### what is foreign key
+Foreign key is a column in a table that reference another a primary key in another table. it is used to link tables together
+
+
