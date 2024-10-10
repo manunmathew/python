@@ -40,3 +40,93 @@ Example of a simple HTML structure:
 </body>
 </html>
 ```
+## Common HTML Tags
+
+### Headings
+
+HTML defines six levels of headings, ranging from `<h1>` (most important) to `<h6>` (least important).
+
+- `<h1>`: The highest priority heading, typically used for main titles.
+- `<h6>`: The lowest priority heading, often used for subheadings or smaller content.
+
+Example:
+
+```html
+<h1>Main Title</h1>
+<h2>Subheading</h2>
+```
+
+### Text Formatting Tags
+
+- `<u>`: Underlines the enclosed text.
+- `<b>`: Bolds the text.
+- `<strong>`: Indicates important text, often rendered in bold.
+- `<i>`: Italicizes the text.
+- `<em>`: Emphasizes the text, usually italicized.
+- `<mark>`: Highlights text.
+- `<small>`: Displays smaller text.
+- `<del>`: Strikes through (deleted) text.
+- `<ins>`: Underlines inserted text.
+- `<sub>`: Displays subscript text (e.g., H<sub>2</sub>O).
+- `<sup>`: Displays superscript text (e.g., 10<sup>2</sup>).
+
+### Paragraphs
+
+The `<p>` tag defines paragraphs of text. Browsers automatically add space above and below paragraphs.
+
+Example:
+
+```html
+<p>This is a paragraph of text.</p>
+```
+
+### Links (Anchor Tags)
+
+The `<a>` (anchor) tag is used to create hyperlinks. It uses the `href` attribute to specify the destination URL.
+
+Example:
+
+```html
+<a href="https://www.example.com">Visit Example</a>
+```
+
+### Horizontal Line
+
+The `<hr>` tag creates a horizontal line, often used to separate content. It is an empty tag, meaning it doesn’t require a closing tag.
+
+Example:
+
+```html
+<hr>
+```
+
+### HTML Attributes
+
+HTML elements can have **attributes** that modify their behavior or provide additional information. For example, the `align` attribute can adjust text alignment:
+
+- `align="left"`: Aligns the content to the left.
+- `align="right"`: Aligns the content to the right.
+- `align="center"`: Centers the content.
+- `align="justify"`: Stretches the content so that it aligns evenly on both sides.
+
+Example:
+
+```html
+<p align="center">This paragraph is centered.</p>
+```
+
+### Font Tag (Deprecated)
+
+The `<font>` tag (now deprecated in HTML5) was once used to specify font size and color. Modern HTML encourages using CSS for this.
+
+Example (Deprecated):
+
+```html
+<font size="4" color="blue">This is a blue font.</font>
+```
+
+Instead, use CSS:
+
+```html
+<p style="font-size: 16px; color: blue;">This is a blue font with CSS.</p>
+```
