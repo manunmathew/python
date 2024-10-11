@@ -22,7 +22,7 @@ if age >= 18:
 In this example, the message "You are eligible to vote." will be printed only if the condition age >= 18 is true.
 
 ### Reference Code
-[View the user inputs code here](../code/ConditionalStatements/if.py)
+
 
 
 ## Else Statement
