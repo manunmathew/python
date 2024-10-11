@@ -45,7 +45,7 @@ Variables used in functions can be classified into two categories:
 
 
 #### Reference Code
-[View the code here](../code/Functions/basic.py)
+
 
 
 ## Arguments
@@ -62,7 +62,7 @@ add(1,2)
 
 
 #### Reference Code
-[View the code here](../code/Functions/arguments.py)
+
 
 
 ### Arbitrary Arguments
