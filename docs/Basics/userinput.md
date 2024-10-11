@@ -31,4 +31,4 @@ eg:  print("Employee Name =", name, "\nEmployee ID =", id, "\nSalary =", salary,
 ```
 
 ## Reference Code
-[View the user inputs code here](../code/userinputs.py)
+

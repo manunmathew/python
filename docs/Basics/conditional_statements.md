@@ -48,7 +48,7 @@ In this example, the message "You are not eligible to vote." will be printed bec
 No condition is required for the else statement. It acts as a catch-all for any scenario where the if condition is not met.
 
 ### Reference Code
-[View the user inputs code here](../code/ConditionalStatements/else.py)
+
 
 ## Elif Statement
 The elif statement allows you to check multiple conditions. It stands for "else if" and is used when you want to test more than two conditions.
@@ -83,7 +83,7 @@ In this example, the message "Grade: C" will be printed because the score of 75 
 Just like with else, no condition is required for the final else block. It will execute if none of the preceding if or elif conditions are met.
 
 ### Reference Code
-[View the user inputs code here](../code/ConditionalStatements/elif.py)
+
 
 
 ### Complete Example
