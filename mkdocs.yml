@@ -3,46 +3,46 @@ docs_dir: docs
 nav:
   - Home: index.md
   - Basics:
-      - Assignment: docs/Basics/assignment.md
-      - Basics: docs/Basics/basics.md
-      - Conditional Statements: docs/Basics/conditional_statements.md
-      - Formatters: docs/Basics/formatters.md
-      - Python Operators: docs/Basics/python_operators.md
-      - User Input: docs/Basics/userinput.md
+      - Assignment: Basics/assignment.md
+      - Basics: Basics/basics.md
+      - Conditional Statements: Basics/conditional_statements.md
+      - Formatters: Basics/formatters.md
+      - Python Operators: Basics/python_operators.md
+      - User Input: Basics/userinput.md
   - Data Types:
-      - Dictionaries Operations: docs/DataTypes/DictionariesOperations.md
-      - List Operations: docs/DataTypes/ListOperations.md
-      - Set Operations: docs/DataTypes/SetOperations.md
-      - String Formatting: docs/DataTypes/StringFormating.md
-      - String Operations: docs/DataTypes/StringOperations.md
-      - Tuple Operations: docs/DataTypes/TupleOperations.md
-      - Special Numbers Guide: docs/DataTypes/SpecialNumbersGuide.md
+      - Dictionaries Operations: DataTypes/DictionariesOperations.md
+      - List Operations: DataTypes/ListOperations.md
+      - Set Operations: DataTypes/SetOperations.md
+      - Special Numbers Guide: DataTypes/SpecialNumbersGuide.md
+      - String Formatting: DataTypes/StringFormating.md
+      - String Operations: DataTypes/StringOperations.md
+      - Tuple Operations: DataTypes/TupleOperations.md
   - Functions:
-      - Lambda: docs/Functions/Lambda.md
-      - Recursion: docs/Functions/Recursion.md
-      - Functions: docs/Functions/functions.md
+      - Lambda: Functions/Lambda.md
+      - List Comprehension: Functions/ListComprehension.md
+      - Recursion: Functions/Recursion.md
+      - Functions: Functions/functions.md
   - OOP Concepts:
-      - Abstraction: docs/OOPsConcepts/Abstraction.md
-      - Encapsulation: docs/OOPsConcepts/Encapsulation.md
-      - Polymorphism: docs/OOPsConcepts/Polymorphism.md
-      - Python OOP Concepts: docs/OOPsConcepts/PythonOOPsConcepts.md
+      - Abstraction: OOPsConcepts/Abstraction.md
+      - Encapsulation: OOPsConcepts/Encapsulation.md
+      - Polymorphism: OOPsConcepts/Polymorphism.md
+      - Python OOP Concepts: OOPsConcepts/PythonOOPsConcepts.md
   - Exceptions Handling:
-      - Assertion Exception: docs/ExceptionsHandling/AssertionException.md
-      - Exception Handling: docs/ExceptionsHandling/ExceptionsHandling.md
+      - Assertion Exception: ExceptionsHandling/AssertionException.md
+      - Exception Handling: ExceptionsHandling/ExceptionsHandling.md
   - Looping Statements:
-      - Looping Statements: docs/LoopingStatements/loopingstatements.md
+      - Looping Statements: LoopingStatements/loopingstatements.md
   - Modules:
-      - Modules Overview: docs/Modules/Modules.md
-      - OS Module vs Native Commands: docs/Modules/os_module_vs_native_commands.md
+      - Modules Overview: Modules/Modules.md
+      - OS Module vs Native Commands: Modules/os_module_vs_native_commands.md
   - Regular Expressions:
-      - Regular Expressions: docs/RegularExpressions/RegularExpression.md
+      - Regular Expressions: RegularExpressions/RegularExpression.md
   - Python to SQL:
-      - MySQL: docs/PythonToSQL/MySQL.md
-      - Python to SQL: docs/PythonToSQL/PythonToSQL.md
+      - Python to SQL: PythonToSQL/PythonToSQL.md
   - File Handling:
-      - Python File Handling: docs/FileHandling/PythonFileHandling.md
+      - Python File Handling: FileHandling/PythonFileHandling.md
   - HTML:
-      - HTML Introduction: docs/HTML/html.md
+      - HTML Introduction: HTML/html.md
 
 theme:
   name: material
