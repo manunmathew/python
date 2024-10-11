@@ -202,4 +202,4 @@ To get characters at even positions in the string:
     print(s[::2])
 
 ## Reference Code
-[View the basics code here](../code/DataType/String/StringOperation.py)
+

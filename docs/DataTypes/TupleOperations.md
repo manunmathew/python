@@ -41,5 +41,5 @@ The index() method raises an exception if the value is not found.
 print(thistuple[2:5])
 
 ## Reference Code
-[View the code here](../code/DataType/Tuple/Tuple.py)
+
 

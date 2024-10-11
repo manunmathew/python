@@ -3,7 +3,7 @@
 ## Print Function
 - `print()`: Function to print the output to the console.
 - `type()`: Function to print the type of the variable
-- `exit()`: Function to exit the program 
+- `exit()`: Function to exit the program
 
 ## Comments
 - `#`: Used for single-line comments.
@@ -65,4 +65,4 @@ A Python variable is a reserved memory location to store values. In other words,
 5. Keywords cannot be used as variables (e.g., `and`, `or`, `if`, `def`).
 
 ## Reference Code
-[View the basics code here](../code/basics.py)
+

@@ -77,4 +77,4 @@
 **Note**: These operators are used to perform bit-level operations on binary numbers. For example, `a & b` performs a bitwise AND operation.
 
 ## Reference Code
-[View the user inputs code here](../code/python_operators.py)
+

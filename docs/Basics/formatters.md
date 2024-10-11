@@ -22,4 +22,4 @@ print("Name: %s, Age: %d, Height: %.2f" % (name, age, height))
 
 
 ## Reference Code
-[View the formatters code here](../code/formatters.py)
+

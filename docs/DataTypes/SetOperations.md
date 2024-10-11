@@ -85,4 +85,4 @@ Gets elements that are present in either of the sets, but not in both.
   ```
 
 ## Reference Code
-[View the code here](../code/DataType/Set/set.py)
+
