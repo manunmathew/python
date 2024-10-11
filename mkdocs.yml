@@ -1,0 +1,58 @@
+site_name: Python Documentation
+nav:
+  - Home: index.md
+  - Basics:
+      - Assignment: docs/Basics/assignment.md
+      - Basics: docs/Basics/basics.md
+      - Conditional Statements: docs/Basics/conditional_statements.md
+      - Formatters: docs/Basics/formatters.md
+      - Python Operators: docs/Basics/python_operators.md
+      - User Input: docs/Basics/userinput.md
+  - Data Types:
+      - Dictionaries Operations: docs/DataTypes/DictionariesOperations.md
+      - List Operations: docs/DataTypes/ListOperations.md
+      - Set Operations: docs/DataTypes/SetOperations.md
+      - String Formatting: docs/DataTypes/StringFormating.md
+      - String Operations: docs/DataTypes/StringOperations.md
+      - Tuple Operations: docs/DataTypes/TupleOperations.md
+      - Special Numbers Guide: docs/DataTypes/SpecialNumbersGuide.md
+  - Functions:
+      - Lambda: docs/Functions/Lambda.md
+      - Recursion: docs/Functions/Recursion.md
+      - Functions: docs/Functions/functions.md
+  - OOP Concepts:
+      - Abstraction: docs/OOPsConcepts/Abstraction.md
+      - Encapsulation: docs/OOPsConcepts/Encapsulation.md
+      - Polymorphism: docs/OOPsConcepts/Polymorphism.md
+      - Python OOP Concepts: docs/OOPsConcepts/PythonOOPsConcepts.md
+  - Exceptions Handling:
+      - Assertion Exception: docs/ExceptionsHandling/AssertionException.md
+      - Exception Handling: docs/ExceptionsHandling/ExceptionsHandling.md
+  - Looping Statements:
+      - Looping Statements: docs/LoopingStatements/loopingstatements.md
+  - Modules:
+      - Modules Overview: docs/Modules/Modules.md
+      - OS Module vs Native Commands: docs/Modules/os_module_vs_native_commands.md
+  - Regular Expressions:
+      - Regular Expressions: docs/RegularExpressions/RegularExpression.md
+  - Python to SQL:
+      - MySQL: docs/PythonToSQL/MySQL.md
+      - Python to SQL: docs/PythonToSQL/PythonToSQL.md
+  - File Handling:
+      - Python File Handling: docs/FileHandling/PythonFileHandling.md
+  - HTML:
+      - HTML Introduction: docs/HTML/html.md
+
+theme:
+  name: material
+
+# Configuration options for MkDocs plugins, extra CSS/JS files, etc.
+extra_css:
+  - css/custom.css
+
+extra_javascript:
+  - js/custom.js
+
+# Define plugins for additional functionality
+plugins:
+  - search
