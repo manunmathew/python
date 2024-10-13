@@ -37,7 +37,7 @@ nav:
       - Modules Overview: Modules/Modules.md
       - OS Module vs Native Commands: Modules/os_module_vs_native_commands.md
   - Regular Expressions:
-      - Regular Expressions: RegularExpressions/RegularExpression.md
+      - Regular Expressions: RegularExpressions/RegEx.md
   - Python to SQL:
       - Python to SQL: PythonToSQL/PythonToSQL.md
   - File Handling:
