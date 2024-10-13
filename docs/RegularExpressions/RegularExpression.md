@@ -1,65 +1,56 @@
 # Regular Expression
-Regular Expression or RegEx is a special sequence of characters that are used to search for a pattern in string
 
-module re is used for regular expression in python
+Regular Expression (RegEx) is a special sequence of characters used to search for patterns in strings.
 
-fullmatch(): it returns object if match is found
-search(): it returns match object anywhere in the string
-findall():it returns list that contains all match
-split(): it returns a string has been split
-sub(): it is used to replace the matches
+The `re` module is used for regular expressions in Python.
 
-a regular expression is created using mix of characters special sequences and sets
+## Common Functions in the `re` Module:
 
-## characters:
-[] : it represents a set of characters and numbers
-\ : it represents special sequence #\s,\d,\w
-^ : it represents patterns present at the beginning of a
-string
+- **`fullmatch()`**: Returns a match object if the entire string matches the pattern.
+- **`search()`**: Returns a match object for the first occurrence of the pattern anywhere in the string.
+- **`findall()`**: Returns a list of all matches of the pattern in the string.
+- **`split()`**: Splits the string at each match of the pattern.
+- **`sub()`**: Replaces all matches with a specified string.
 
-* :it represents 0 or more occurance
-[0-9]*
+## Creating a Regular Expression
 
-+ : it represents 1 or more occurance
+A regular expression is created using a mix of characters, special sequences, and sets.
 
-[0-9]+
-{} : specified number of occurance of pattern
-#limit
+### Characters
 
-| : it represents this or that character is
-present
+- `[]`: Represents a set of characters or numbers.
+- `\`: Represents a special sequence (e.g., `\s`, `\d`, `\w`).
+- `^`: Represents patterns present at the beginning of a string.
+- `*`: Represents 0 or more occurrences.
+  Example: `[0-9]*`
+- `+`: Represents 1 or more occurrences.
+  Example: `[0-9]+`
+- `{}`: Specifies the number of occurrences of a pattern.
+  Example: `[a-z]{2}`
+- `|`: Represents "this or that" in the pattern.
 
+## Rules of Regex:
 
+- **`[abc]`**: Matches either `a`, `b`, or `c`.
+- **`[^abc]`**: Matches anything except `a`, `b`, or `c`.
+- **`[a-z]`**: Matches any lowercase letter (`a` to `z`).
+- **`[A-Z]`**: Matches any uppercase letter (`A` to `Z`).
+- **`[a-zA-Z]`**: Matches both lowercase and uppercase letters.
+- **`[0-9]`**: Matches any digit (`0` to `9`).
+- **`[a-zA-Z0-9]`**: Matches lowercase, uppercase letters, or digits.
 
-## rules  of regex :
+## Special Sequences:
 
-x='[abc]'  : either a ,b, or c
+- **`\s`**: Matches a space.
+- **`\d`**: Matches a digit.
+- **`\D`**: Matches anything except a digit.
+- **`\w`**: Matches a word character (alphanumeric).
 
-x='[^abc]' : except abc
+## Quantifiers:
 
-x='[a-z]' :  lower case a to z
-
-x='[A-Z]' : upper case A-Z
-
-x='[a-zA-z]' : both lower case and uppercase
-
-x='[0-9]' : it checks the digit
-
-x='[a-zA-Z0-9]' lower cases , upper cases or digit
-
-
-
-## special sequence :
-x='\s' : check space
-x='\d' :check digit
-x='\D' : it returns string except number
-x='\w' :it returns a string contains a word
-
-
-
-## quantifiers :
-x='[a-z]+' :1 or more
-x='[a-z]*' :0 or more
-x='[a]?' a included or not included
-x='[a]{n}' :  #n->number #[a-z]{2}
-x='[a]{n,k}' : n->minimum number k->maximum number
+- **`[a-z]+`**: Matches one or more lowercase letters.
+- **`[a-z]*`**: Matches zero or more lowercase letters.
+- **`[a]?`**: Matches if `a` is included or not included (0 or 1 occurrence).
+- **`[a]{n}`**: Matches exactly `n` occurrences of `a`.
+  Example: `[a-z]{2}`
+- **`[a]{n,k}`**: Matches at least `n` and at most `k` occurrences of `a`.
