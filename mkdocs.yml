@@ -46,7 +46,9 @@ nav:
   - File Handling:
       - Python File Handling: FileHandling/PythonFileHandling.md
   - HTML:
-      - HTML Introduction: HTML/html.md
+      - HTML Introduction: HTML/overview.md
+      - HTML Tags: HTML/common_tags.md
+      - HTML Lists: HTML/html_lists.md
 
 theme:
   name: material
