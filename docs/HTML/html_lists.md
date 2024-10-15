@@ -56,3 +56,5 @@ Example:
   <dd>A style sheet language used to describe the presentation of web pages.</dd>
 </dl>
 ```
+## Code Reference
+Refer to the [HTML Lists](../../code/HTML/list.html)

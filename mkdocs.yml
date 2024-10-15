@@ -49,6 +49,8 @@ nav:
       - HTML Introduction: HTML/overview.md
       - HTML Tags: HTML/common_tags.md
       - HTML Lists: HTML/html_lists.md
+      - HTML Tables: HTML/html_tables.md
+      - HTML Forms: HTML/html_form.md
 
 theme:
   name: material
