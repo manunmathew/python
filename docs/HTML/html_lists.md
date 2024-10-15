@@ -57,4 +57,4 @@ Example:
 </dl>
 ```
 ## Code Reference
-Refer to the [HTML Lists](../../code/HTML/list.html)
+Refer to the [HTML Lists]({{ repo_url }}/code/HTML/list.html)
