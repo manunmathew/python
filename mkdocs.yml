@@ -2,7 +2,7 @@ site_name: Python Documentation
 site_dir: _site
 docs_dir: docs
 site_url: "https://manunmathew.github.io/python"
-repo_url: "https://github.com/manunmathew/python/raw/main"
+repo_url: "https://github.com/manunmathew/python"
 repo_name: "GitHub"
 nav:
   - Home: index.md
