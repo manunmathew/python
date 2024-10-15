@@ -137,4 +137,4 @@ Example:
 ---
 
 ## Code Reference
-Refer to the [HTML Tags]({{ repo_url }}/code/HTML/Introduction.html)
+Refer to the [HTML Tags](https://github.com/manunmathew/python/raw/main/code/HTML/Introduction.html)

@@ -75,4 +75,4 @@ HTML forms are used to collect user input and send it to a server for processing
   `<input type="text" name="phone" pattern="[0-9]{10}">`
 
 ## Code Reference
-Refer to the [HTML Forms ]({{ repo_url }}/code/HTML/forms.html)
+Refer to the [HTML Forms ](https://github.com/manunmathew/python/raw/main/code/HTML/forms.html)

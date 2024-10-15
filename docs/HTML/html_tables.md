@@ -48,4 +48,4 @@ Use the `<table border="1">` attribute to create a table with a border.
     `<td rowspan="2">Content</td>`
 
 ## Code Reference
-Refer to the [HTML Tables]({{ repo_url }}/code/HTML/table.html)
+Refer to the [HTML Tables](https://github.com/manunmathew/python/raw/main/code/HTML/table.html)
