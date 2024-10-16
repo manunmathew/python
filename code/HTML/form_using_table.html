@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body bgcolor="#ff6347">
+    <center>
+        <h2><u>Student Registration Form Using Table in HTML</u></h2>
+        <form method="post">
+            <table cellpadding="10" cellspacing="0">
+                <tr>
+                    <td><label>First Name</label></td>
+                    <td><input type="text" name="firstname" placeholder="Manu" maxlength="50"> (Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <td><label>Last Name</label></td>
+                    <td><input type="text" name="lastname" placeholder="Mathew" maxlength="50"> (Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <td><label>Email ID</label></td>
+                    <td><input type="email" name="email" placeholder="manunmathew@gmail.com"> </td>
+                </tr>
+                <tr>
+                    <td><label>Mobile Number</label></td>
+                    <td><input type="number" name="mobile" placeholder="900xxxxxxx" maxlength="10"> (10 Digits Allowed)</td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender" value="male"> Male
+                        <input type="radio" name="gender" value="female"> Female
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Date of Birth(DOB)</label></td>
+                    <td>
+                        <select name="day">
+                            <option>Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                        <select name="month">
+                            <option>Month</option>
+                            <option value="1">January</option>
+                            <option value="2">February</option>
+                            <option value="3">March</option>
+                            <option value="4">April</option>
+                            <option value="5">May</option>
+                            <option value="6">June</option>
+                            <option value="7">July</option>
+                            <option value="8">August</option>
+                            <option value="9">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12">December</option>
+                        </select>
+                        <select name="year">
+                            <option>Year</option>
+                            <option value="1990">1990</option>
+                            <option value="1991">1991</option>
+                            <option value="1992">1992</option>
+                            <option value="1993">1993</option>
+                            <option value="1994">1994</option>
+                            <option value="1995">1995</option>
+                            <option value="1996">1996</option>
+                            <option value="1997">1997</option>
+                            <option value="1998">1998</option>
+                            <option value="1999">1999</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2002">2002</option>
+                            <option value="2003">2003</option>
+                            <option value="2004">2004</option>
+                            <option value="2005">2005</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Address</label></td>
+                    <td><textarea name="address" placeholder="Enter your address" rows="4" cols="50"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label>City</label></td>
+                    <td><input type="text" name="city" placeholder="Bangalore" maxlength="50"> (Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <td><label>Pin Code</label></td>
+                    <td><input type="text" name="pincode" placeholder="560068" maxlength="6"> (Max 6 Numbers Allowed)</td>
+                </tr>
+                <tr>
+                    <td><label>State</label></td>
+                    <td><input type="text" name="state" placeholder="Karnataka" maxlength="50"> (Max 50 Characters Allowed)</td>
+                </tr>
+                <tr>
+                    <td><label>Country</label></td>
+                    <td><input type="text" name="country" value="India"></td>
+                </tr>
+                <tr>
+                    <td><label>Hobbies</label></td>
+                    <td>
+                        <input type="checkbox" name="hobby" value="drawing"> Drawing
+                        <input type="checkbox" name="hobby" value="singing"> Singing
+                        <input type="checkbox" name="hobby" value="dancing"> Dancing
+                        <input type="checkbox" name="hobby" value="sketching"> Sketching
+                        <input type="checkbox" name="hobby" value="others"> Others
+                        <input type="text" name="other_hobbies" placeholder="Ex- Teaching" maxlength="50"> (Max 50 Characters Allowed)
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Qualification</label></td>
+                    <td>
+                        <input type="checkbox" name="qualification" value="highschool"> High School(10th)<br>
+                        <input type="checkbox" name="qualification" value="higherschool"> Higher School(12th)<br>
+                        <input type="checkbox" name="qualification" value="graduation"> Graduation(Bachelors)<br>
+                        <input type="checkbox" name="qualification" value="postgraduation"> Post Graduation(Masters)<br>
+                        <input type="checkbox" name="qualification" value="phd"> Phd
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Courses Applied For</label></td>
+                    <td>
+                        <input type="radio" name="course" value="bca"> BCA(Bachelor of Computer Applications)<br>
+                        <input type="radio" name="course" value="bcom"> B.Com(Bachelor of Commerce)<br>
+                        <input type="radio" name="course" value="bsc"> B.Sc(Bachelor of Science)<br>
+                        <input type="radio" name="course" value="ba"> BA(Bachelor of Arts)<br>
+                        <input type="radio" name="course" value="mca"> MCA(Master of Computer Applications)<br>
+                        <input type="radio" name="course" value="mcom"> M.Com(Master of Commerce)<br>
+                        <input type="radio" name="course" value="msc"> M.Sc(Master of Science)<br>
+                        <input type="radio" name="course" value="ma"> MA(Master of Arts)
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>

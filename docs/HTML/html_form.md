@@ -74,5 +74,33 @@ HTML forms are used to collect user input and send it to a server for processing
 - **pattern**: Specifies a regular expression that the input's value must match.
   `<input type="text" name="phone" pattern="[0-9]{10}">`
 
+## The Method Attribute
+The `method` attribute specifies the HTTP method to be used when submitting the form data.
+
+## The Action Attribute
+The `action` attribute defines the action to be performed when the form is submitted. This example uses the POST method when submitting the form data:
+
+<form action="/action_page.php" method="post">
+
+## The Placeholder Attribute
+The input `placeholder` attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format). The short hint is displayed in the input field before the user enters a value.
+
+The `placeholder` attribute works with the following input types: `text`, `search`, `url`, `number`, `tel`, `email`, and `password`.
+
+## The Value Attribute
+The input `value` attribute specifies an initial value for an input field.
+
+## The Required Attribute
+The input `required` attribute specifies that an input field must be filled out before submitting the form.
+
+The `required` attribute works with the following input types: `text`, `search`, `url`, `tel`, `email`, `password`, `date pickers`, `number`, `checkbox`, `radio`, and `file`.
+
+## The Readonly Attribute
+The input `readonly` attribute specifies that an input field is read-only.
+
+A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it). The value of a read-only input field will be sent when submitting the form!
+
 ## Code Reference
-Refer to the [HTML Forms ](https://github.com/manunmathew/python/raw/main/code/HTML/forms.html)
+Refer to the [HTML Forms](https://github.com/manunmathew/python/raw/main/code/HTML/forms.html)
+Refer to the [HTML Sample Forms](https://github.com/manunmathew/python/raw/main/code/HTML/sample_forms.html)
+Refer to the [HTML Forms using Table](https://github.com/manunmathew/python/raw/main/code/HTML/form_using_table.html)
