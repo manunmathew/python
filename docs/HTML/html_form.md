@@ -80,7 +80,7 @@ The `method` attribute specifies the HTTP method to be used when submitting the 
 ## The Action Attribute
 The `action` attribute defines the action to be performed when the form is submitted. This example uses the POST method when submitting the form data:
 
-<form action="/action_page.php" method="post">
+`<form action="/action_page.php" method="post">`
 
 ## The Placeholder Attribute
 The input `placeholder` attribute specifies a short hint that describes the expected value of an input field (a sample value or a short description of the expected format). The short hint is displayed in the input field before the user enters a value.
@@ -102,5 +102,7 @@ A read-only input field cannot be modified (however, a user can tab to it, highl
 
 ## Code Reference
 Refer to the [HTML Forms](https://github.com/manunmathew/python/raw/main/code/HTML/forms.html)
+
 Refer to the [HTML Sample Forms](https://github.com/manunmathew/python/raw/main/code/HTML/sample_forms.html)
+
 Refer to the [HTML Forms using Table](https://github.com/manunmathew/python/raw/main/code/HTML/form_using_table.html)
