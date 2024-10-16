@@ -10,23 +10,26 @@
     <body>
         <form>
             <label>Name</label>
-            <input type="text" name="fname"><br><br>
+            <input type="text" name="fname" placeholder="Enter your Name" value="Manu Mathew"><br><br>
             <!-- #fname is the name of variable -->
             <label>Username</label>
-            <input type="text" name="username"><br><br>
+            <input type="text" name="username" required><br><br>
             <!-- username is the name of variable -->
             <!-- password -->
             <label>Password</label>
             <input type="password" name="password">  <br><br>
             <label>Phone Number</label>
-            <input type="number" name="phone_name"> <br><br>
+            <input type="number" name="phone_name" value="9003072987" readonly> <br><br>
+            <label>Address</label>
+            <textarea name="address" rows="3" cols="20" ></textarea> <br><br>
             <!-- Radio button -->
+
             <label>Gender</label>
             <input type="radio" name="gender">Female
             <input type="radio" name="gender">Male <br><br>
             <!-- date -->
             <label>DOB</label>
-            <input type="date" name="dob"> <br><br>
+            <input type="date" name="dob" required> <br><br>
             <!-- file -->
             <label> Upload File </label>
             <input type="file" name="file"><br><br>
@@ -46,7 +49,11 @@
             <input type="checkbox" name="hindi"> Hindi<br><br>
             <!-- email -->
             <label> Email </label>
-            <input type="email" name="email"> <br><br>
+            <input type="email" name="email" placeholder="Enter your Email ID" > <br><br>
+            <input type="submit">
+            <input type="submit" value="Register">
+            <input type="reset">
+            <button type="submit">Test</button>
         </form>
     </body>
 
