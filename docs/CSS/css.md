@@ -74,4 +74,4 @@ External CSS allows for styling multiple HTML documents using a single CSS file.
 - The file should not contain any HTML tags, only CSS rules.
 
 ## Code Reference
-Refer to the [HTML Forms](https://github.com/manunmathew/python/raw/main/code/CSS/inline.html)
+Refer to the [CSS](https://github.com/manunmathew/python/raw/main/code/CSS/inline.html)
