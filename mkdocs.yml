@@ -52,6 +52,9 @@ nav:
       - HTML Lists: HTML/html_lists.md
       - HTML Tables: HTML/html_tables.md
       - HTML Forms: HTML/html_form.md
+  - CSS:
+      - CSS Introduction: CSS/css.md
+      - CSS Selectors: CSS/Selectors.md
 
 theme:
   name: material
