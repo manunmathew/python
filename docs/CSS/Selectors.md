@@ -100,4 +100,4 @@ In this example, the universal selector removes all margin and padding from ever
 
 
 ## Code Reference
-Refer to the [HTML Forms](https://github.com/manunmathew/python/raw/main/code/CSS/internal.html)
+Refer to the [CSS Selectors](https://github.com/manunmathew/python/raw/main/code/CSS/internal.html)
