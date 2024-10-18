@@ -13,17 +13,20 @@ CSS can be applied in three main ways:
 Inline CSS is used to apply a unique style to a single element directly within an HTML tag. This is achieved by using the `style` attribute within the HTML element.
 
 **Syntax:**
+```html
     <tagname style="property: value;">Content</tagname>
-
+```
 **Example:**
+```html
     <p style="color: blue; font-size: 20px;">This is a paragraph with inline CSS.</p>
-
+```
 ## 2. Internal CSS
 
 **Description:**
 Internal CSS is used when a single HTML document needs specific styles. The CSS rules are placed within the `<style>` tag inside the `<head>` section of the HTML document. This allows for centralized styling within a single file but limits reusability across multiple pages.
 
 **Syntax:**
+```html
     <head>
       <style>
         selector {
@@ -31,8 +34,9 @@ Internal CSS is used when a single HTML document needs specific styles. The CSS 
         }
       </style>
     </head>
-
+```
 **Example:**
+```html
     <head>
       <style>
         p {
@@ -44,31 +48,34 @@ Internal CSS is used when a single HTML document needs specific styles. The CSS 
     <body>
       <p>This paragraph uses internal CSS.</p>
     </body>
-
+```
 ## 3. External CSS
 
 **Description:**
 External CSS allows for styling multiple HTML documents using a single CSS file. By linking to an external `.css` file from an HTML document, you can globally control the styles across the entire website. This is a preferred method for large projects since it promotes reusability and maintainability.
 
 **Syntax (linking the external CSS):**
+```html
     <head>
       <link rel="stylesheet" href="styles.css">
     </head>
-
+```
 **Example (external CSS file `styles.css`):**
+```html
     p {
       color: red;
       font-size: 16px;
     }
-
+```
 **Example (HTML file):**
+```html
     <head>
       <link rel="stylesheet" href="styles.css">
     </head>
     <body>
       <p>This paragraph is styled using external CSS.</p>
     </body>
-
+```
 **Key Points:**
 - The external `.css` file should be saved with a `.css` extension.
 - The file should not contain any HTML tags, only CSS rules.
