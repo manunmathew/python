@@ -14,7 +14,7 @@ The Box Model defines the space taken by each element, broken down into four are
 
 Below is an illustration of the CSS Box Model, showing the relationships between content, padding, border, and margin:
 
-![CSS Box Model](../../Assets/img/BoxModel.png)
+![CSS Box Model](https://github.com/manunmathew/python/raw/main/Assets/img/BoxModel.png)
 
 ---
 
