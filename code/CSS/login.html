@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <script src="https://kit.fontawesome.com/4477b93826.js" crossorigin="anonymous"></script>
+        <style>
+            body {
+                background: #f3e0e2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .parent1 {
+                display: flex;
+                justify-content: center;
+                margin-top: 100px;
+
+            }
+
+            .child1,
+            .child2 {
+                height: 500px;
+                width: 500px;
+                align-content: center;
+                justify-content: center;
+
+            }
+
+            .child1 {
+                background-color: grey;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                box-shadow: 10px 10px 10px #aaaaaa;
+                overflow: hidden;
+            }
+
+            input {
+                background-color: #eee;
+                border: none;
+                padding: 12px 15px;
+                margin: 8px 0;
+                width: 70%;
+            }
+
+            button {
+                border-radius: 15px;
+                background-color: red;
+                border: none;
+                padding: 15px 32px;
+                color: white;
+                height: 50px;
+                width: 150px;
+                font-size: 15px;
+                text-transform: uppercase;
+                transition: transform 80ms ease-in;
+            }
+
+            .child2 {
+                background-color: red;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                text-align: center;
+                color: white;
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <div class="parent1">
+            <div class="child1">
+                <center>
+                    <h1>login</h1>
+                    <i class="fa-brands fa-facebook fa-2x"></i>
+                    <i class="fa-brands fa-twitter fa-2x"></i>
+                    <h4>or use your account</h4>
+                    <input type="email" name="email" placeholder="Email" /> <br><br>
+                    <input type="password" name="password" placeholder="Password" /><br><br>
+                    <button>Log In</button>
+                </center>
+            </div>
+            <div class="child2">
+                <h1>HTML CSS Login Form</h1>
+                <p>
+                    This login form is created using pure
+                    HIML and CSS for social icons.
+                    FontAwesome is used.
+                </p>
+
+            </div>
+        </div>
+    </body>
+
+</html>
