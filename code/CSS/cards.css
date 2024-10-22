@@ -1,0 +1,80 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: antiquewhite;
+}
+
+.cards {
+    text-align: center;
+    padding: 30px;
+}
+
+.cards h2.header {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
+}
+
+.content-1,
+.content-2,
+.content-3 {
+    align-items: center;
+    margin: 20px;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    transition: background-color 0.3s, border-color 0.3s;
+    height: 300px;
+    max-width: 200px
+}
+
+.content-1:hover {
+    border-color: #1DA1F2;
+    background: #1DA1F2;
+}
+
+.content-2:hover {
+    border-color: #52a386;
+    background: #52a386;
+
+}
+
+.content-3:hover {
+    border-color: #E1306C;
+    background: #E1306C;
+}
+
+button {
+    margin-top: 80px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    border: none;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s, transform 80ms ease-in;
+}
+
+.content-1 .button1:hover {
+    background-color: #ffffff;
+    color: #1DA1F2;
+}
+
+.content-2 .button2:hover {
+    background-color: #ffffff;
+    color: #52a386;
+}
+
+.content-3 .button3:hover {
+    background-color: #ffffff;
+    color: #ff0000;
+}
