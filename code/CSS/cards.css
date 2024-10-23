@@ -35,6 +35,7 @@ body {
     transition: background-color 0.3s, border-color 0.3s;
     height: 300px;
     max-width: 200px
+
 }
 
 .content-1:hover {
