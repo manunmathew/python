@@ -57,6 +57,7 @@ nav:
       - CSS Introduction: CSS/css.md
       - CSS Selectors: CSS/Selectors.md
       - CSS Box Model: CSS/CSSBoxModel.md
+      - CSS AOS: CSS/aos.md
 
 theme:
   name: material
