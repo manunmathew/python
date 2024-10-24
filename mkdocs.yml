@@ -6,46 +6,47 @@ repo_url: "https://github.com/manunmathew/python"
 repo_name: "GitHub"
 nav:
   - Home: index.md
-  - Basics:
-      - Assignment: Basics/assignment.md
-      - Basics: Basics/basics.md
-      - Conditional Statements: Basics/conditional_statements.md
-      - Formatters: Basics/formatters.md
-      - Python Operators: Basics/python_operators.md
-      - User Input: Basics/userinput.md
-  - Data Types:
-      - Dictionaries Operations: DataTypes/DictionariesOperations.md
-      - List Operations: DataTypes/ListOperations.md
-      - Set Operations: DataTypes/SetOperations.md
-      - Special Numbers Guide: DataTypes/SpecialNumbersGuide.md
-      - String Formatting: DataTypes/StringFormating.md
-      - String Operations: DataTypes/StringOperations.md
-      - Tuple Operations: DataTypes/TupleOperations.md
-  - Functions:
-      - Lambda: Functions/Lambda.md
-      - List Comprehension: Functions/ListComprehension.md
-      - Recursion: Functions/Recursion.md
-      - Functions: Functions/functions.md
-  - OOP Concepts:
-      - Abstraction: OOPsConcepts/Abstraction.md
-      - Encapsulation: OOPsConcepts/Encapsulation.md
-      - Polymorphism: OOPsConcepts/Polymorphism.md
-      - Python OOP Concepts: OOPsConcepts/PythonOOPsConcepts.md
-  - Exceptions Handling:
-      - Assertion Exception: ExceptionsHandling/AssertionException.md
-      - Exception Handling: ExceptionsHandling/ExceptionsHandling.md
-  - Looping Statements:
-      - Looping Statements: LoopingStatements/loopingstatements.md
-  - Modules:
-      - Modules Overview: Modules/Modules.md
-      - OS Module vs Native Commands: Modules/os_module_vs_native_commands.md
-  - Regular Expressions:
-      - Regular Expressions: RegularExpressions/RegEx.md
+  - Python:
+    - Basics:
+        - Assignment: Basics/assignment.md
+        - Basics: Basics/basics.md
+        - Conditional Statements: Basics/conditional_statements.md
+        - Formatters: Basics/formatters.md
+        - Python Operators: Basics/python_operators.md
+        - User Input: Basics/userinput.md
+    - Data Types:
+        - Dictionaries Operations: DataTypes/DictionariesOperations.md
+        - List Operations: DataTypes/ListOperations.md
+        - Set Operations: DataTypes/SetOperations.md
+        - Special Numbers Guide: DataTypes/SpecialNumbersGuide.md
+        - String Formatting: DataTypes/StringFormating.md
+        - String Operations: DataTypes/StringOperations.md
+        - Tuple Operations: DataTypes/TupleOperations.md
+    - Functions:
+        - Lambda: Functions/Lambda.md
+        - List Comprehension: Functions/ListComprehension.md
+        - Recursion: Functions/Recursion.md
+        - Functions: Functions/functions.md
+    - OOP Concepts:
+        - Abstraction: OOPsConcepts/Abstraction.md
+        - Encapsulation: OOPsConcepts/Encapsulation.md
+        - Polymorphism: OOPsConcepts/Polymorphism.md
+        - Python OOP Concepts: OOPsConcepts/PythonOOPsConcepts.md
+    - Exceptions Handling:
+        - Assertion Exception: ExceptionsHandling/AssertionException.md
+        - Exception Handling: ExceptionsHandling/ExceptionsHandling.md
+    - Looping Statements:
+        - Looping Statements: LoopingStatements/loopingstatements.md
+    - Modules:
+        - Modules Overview: Modules/Modules.md
+        - OS Module vs Native Commands: Modules/os_module_vs_native_commands.md
+    - Regular Expressions:
+        - Regular Expressions: RegularExpressions/RegEx.md
+    - File Handling:
+        - Python File Handling: FileHandling/PythonFileHandling.md
   - SQL:
       - Python to SQL: PythonToSQL/PythonToSQL.md
       - SQL: SQL/sql.md
-  - File Handling:
-      - Python File Handling: FileHandling/PythonFileHandling.md
   - HTML:
       - HTML Introduction: HTML/overview.md
       - HTML Tags: HTML/common_tags.md
