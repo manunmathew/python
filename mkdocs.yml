@@ -61,6 +61,7 @@ nav:
       - CSS AOS: CSS/aos.md
   - Bootstrap:
       - Bootstrap Introduction: Bootstrap/introduction.md
+      - Bootstrap Responsive Screen: Bootstrap/Responsive.md
 
 
 theme:
