@@ -10,35 +10,57 @@
 
     <body>
         <div>
-            <div>
-                <div class="css">
-                    <div class="css-r">
-                        <h1>CSS</h1>
-                        <p style="font-size:19px;">The language for styling web pages</p>
-                        <button style="background-color: forestgreen;">Learn CSS</button>
-                        <button style="background-color: black;">CSS Reference</button>
-                        <button style="background-color:burlywood">Get Certified</button>
-                    </div>
-                    <div class="css-l">
-                        <h3>CSS Example:</h3>
-
-                    </div>
+            <div class="css">
+                <div class="css-r">
+                    <h1>CSS</h1>
+                    <p style="font-size:19px;">The language for styling web pages</p>
+                    <button style="background-color: forestgreen;">Learn CSS</button>
+                    <button style="background-color: black;">CSS Reference</button>
+                    <button style="background-color: burlywood;">Get Certified</button>
                 </div>
-                <div class="java">
-                    <div class="java-r">
-                        <h1>JavaScript</h1>
-                        <p style="font-size:19px;">The language for programming web pages</p>
-                        <button style="background-color: forestgreen;">Learn JavaScript</button>
-                        <button style="background-color: white;">JavaScript Reference</button>
-                        <button style="background-color:burlywood">Get Certified</button>
-                    </div>
-                    <div class="java-l">
-                        <h3>JavaScript Example:</h3>
-                    </div>
+                <div class="css-l">
+                    <h3>CSS Example:</h3>
+                    <p>This is a simple example of a styled paragraph:</p>
+                    <pre>
+                    <code>
+p {
+    color: blue;
+    font-size: 16px;
+    margin: 20px;
+}
+                    </code>
+                </pre>
+                </div>
+            </div>
 
+            <div class="java">
+                <div class="java-r">
+                    <h1>JavaScript</h1>
+                    <p style="font-size:19px;">The language for programming web pages</p>
+                    <button style="background-color: forestgreen;">Learn JavaScript</button>
+                    <button style="background-color: black; color: white;">JavaScript Reference</button>
+                    <button style="background-color: burlywood;">Get Certified</button>
+                </div>
+                <div class="java-l">
+                    <h3>JavaScript Example:</h3>
+                    <p>This is a simple example of JavaScript code:</p>
+                    <pre>
+                    <code>
+function greet() {
+    alert("Hello, World!");
+}
+                    </code>
+                </pre>
+                    <button onclick="greet()">Run JavaScript</button>
                 </div>
             </div>
         </div>
+
+        <script>
+            function greet() {
+                alert("Hello, World!");
+            }
+        </script>
     </body>
 
 </html>

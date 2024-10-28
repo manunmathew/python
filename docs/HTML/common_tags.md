@@ -18,6 +18,8 @@ Inline tags create elements that do not start on a new line and only take up as 
 - `<b>`: Bolds the text.
 - `<i>`: Italicizes the text.
 - `<br>`: Inserts a line break without starting a new paragraph.
+-  The <strong> tag is used to define text with strong importance. The content inside is typically displayed in bold.
+   Tip: Use the <b> tag to specify bold text without any extra importance!
 
 ---
 
