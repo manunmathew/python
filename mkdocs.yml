@@ -62,6 +62,7 @@ nav:
   - Bootstrap:
       - Bootstrap Introduction: Bootstrap/introduction.md
       - Bootstrap Responsive Screen: Bootstrap/Responsive.md
+      - Bootstrap Components: Bootstrap/components.md
 
 
 theme:
