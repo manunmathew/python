@@ -16,7 +16,18 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from calc_app.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('first/', First.as_view() ),
+    path('pettu/', Second.as_view()),
+    path('django/', Template1.as_view()),
+    path('index/', Index.as_view()),
+    path('add/', Addition.as_view()),
+    path('sub/', Subtraction.as_view()),
+    path('multiply/', Multiplication.as_view()),
+    path('div/', Division.as_view()),
+    path('area_circle/', AreaOfCircle.as_view()),
+    path('area_triangle/', AreaOfTriangle.as_view()),
 ]
