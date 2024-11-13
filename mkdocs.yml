@@ -63,7 +63,11 @@ nav:
       - Bootstrap Introduction: Bootstrap/introduction.md
       - Bootstrap Responsive Screen: Bootstrap/Responsive.md
       - Bootstrap Components: Bootstrap/components.md
-
+  - Django:
+      - Django Introduction: Django/introduction.md
+      - Django Project: Django/projects.md
+      - Django App: Django/app.md
+      - Django Model: Django/model.md
 
 theme:
   name: material

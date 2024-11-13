@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Subtraction</title>
+    </head>
+
+    <body>
+        <h1>Subtraction</h1>
+        <form method="post">
+            {% csrf_token %}
+            <label for="first_number">Enter First Number:</label>
+            <input type="number" id="first_number" name="first_number" value= "{{N1}}" required><br><br>
+
+            <label for="second_number">Enter Second Number:</label>
+            <input type="number" id="second_number" name="second_number" value= "{{N2}}" required><br><br>
+            <input type="reset" value="Reset">
+            <button type="submit">Answer</button>
+        </form><br>
+        <Label>Result</Label>
+        <input type="number" value="{{Answer}}"><br><br>
+        <a href="http://127.0.0.1:8000/index/" >Back to Home</a>
+
+    </body>
+
+</html>

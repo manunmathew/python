@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area of Circle</title>
+</head>
+
+<body>
+    <h1>Area of Circle</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="radius">Enter Radius:</label>
+        <input type="number" id="radius" name="radius" value="{{Radius}}" required><br><br>
+        <input type="reset" value="Reset">
+        <button type="submit">Calculate Area</button>
+    </form><br>
+    <label>Result (Area)</label>
+    <input type="number" value="{{CircleArea}}"><br><br>
+    <a href="http://127.0.0.1:8000/index/">Back to Home</a>
+</body>
+
+</html>
