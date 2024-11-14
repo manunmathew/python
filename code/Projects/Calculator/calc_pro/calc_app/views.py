@@ -93,3 +93,14 @@ class AreaOfTriangle(View):
 
         TriangleArea_model.objects.create(base=base, height=height, area=area)
         return render(request, 'triangle.html', {'TriangleArea': area, 'Base': base, 'Height': height})
+
+class Add_display_view(View):
+    def get(self, request):
+        data=Add_model.objects.all()
+        return render(request, 'addview.html', {'data': data})
+
+
+class Sub_display_view(View):
+    def get(self, request):
+        data=Sub_model.objects.all()
+        return render(request, 'subview.html', {'data': data})
