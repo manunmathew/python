@@ -30,4 +30,6 @@ urlpatterns = [
     path('div/', Division.as_view()),
     path('area_circle/', AreaOfCircle.as_view()),
     path('area_triangle/', AreaOfTriangle.as_view()),
+    path('addview/', Add_display_view.as_view()),
+    path('subview/', Sub_display_view.as_view()),
 ]

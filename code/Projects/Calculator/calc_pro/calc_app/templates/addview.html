@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Add View</title>
+    </head>
+
+    <body>
+        <table border="1">
+            <tr>
+                <th>Num1</th>
+                <th>Num2</th>
+                <th>Answer</th>
+                <th>Delete</th>
+            </tr>
+            {% for i in data %}
+            <tr>
+                <td>{{i.num1}}</td>
+                <td>{{i.num2}}</td>
+                <td>{{i.Answer}}</td>
+                <td><a href="">Delete</a></td>
+
+            </tr>
+
+            {% endfor %}
+
+        </table>
+    </body>
+
+</html>
