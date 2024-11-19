@@ -32,4 +32,9 @@ urlpatterns = [
     path('area_triangle/', AreaOfTriangle.as_view()),
     path('addview/', Add_display_view.as_view()),
     path('subview/', Sub_display_view.as_view()),
+    path('adddelete/<int:id>', Add_delete_view.as_view()),
+    path('film_create/', film_create.as_view()),
+    path('film_view/', display_film.as_view()),
+    path('film_detail/<int:id>', film_detail.as_view()),
+    path('filmupdate/<int:id>', FilmUpdate.as_view())
 ]

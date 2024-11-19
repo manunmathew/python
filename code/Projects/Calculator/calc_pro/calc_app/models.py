@@ -30,3 +30,8 @@ class TriangleArea_model(models.Model):
     base = models.FloatField()
     height = models.FloatField()
     area = models.FloatField()
+
+class FilmCreateModel(models.Model):
+    films_name = models.CharField(max_length=50)
+    release_date = models.DateField()
+    director = models.CharField(max_length=20)
