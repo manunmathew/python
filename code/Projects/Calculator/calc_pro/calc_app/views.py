@@ -1,7 +1,8 @@
-from django.shortcuts import render
+from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from django.views.generic import View
 from .models import *
+from .forms import *
 # Create your views here.
 
 # HttpResponse
@@ -104,3 +105,59 @@ class Sub_display_view(View):
     def get(self, request):
         data=Sub_model.objects.all()
         return render(request, 'subview.html', {'data': data})
+
+class Add_delete_view(View):
+    def get(self, request, *args, **kwargs):
+        id=kwargs.get('id')
+        Add_model.objects.get(id=id).delete()
+        return redirect('/addview/')
+
+
+class film_create(View):
+    def get(self, request, *args, **kwargs):
+        form_instance=FilmForm()
+        return render(request, 'film.html', {'form': form_instance})
+    def post(self, request):
+        form_instance=FilmForm(request.POST)
+
+        if form_instance.is_valid():
+            data=form_instance.cleaned_data
+            FilmCreateModel.objects.create(**data)
+            return HttpResponse('Film added to database')
+        else:
+            return HttpResponse('Failed')
+
+class display_film(View):
+    def get(self, request, *args, **kwargs):
+        data = FilmCreateModel.objects.all()
+        return render(request, 'filmview.html', {'data': data})
+
+class film_detail(View):
+    def get(self, request, *args, **kwargs):
+        id_data = kwargs.get('id')
+        data = FilmCreateModel.objects.get(id = id_data)
+        return render(request, 'filmdetailview.html', {'data': data})
+
+
+class FilmUpdate(View):
+    def get(self, request, *args, **kwargs):
+        id_data = kwargs.get('id')
+        data = FilmCreateModel.objects.get(id = id_data)
+
+        data_dict = {
+            'films_name' : data.films_name,
+            'release_date': data.release_date,
+            'director': data.director
+        }
+        form_instance=FilmForm(initial=data_dict)
+        return render(request, 'filmupdate.html', {'form':form_instance})
+    def post(self, request, *args, **kwargs):
+        form_instance=FilmForm(request.POST)
+
+        if form_instance.is_valid():
+            data=form_instance.cleaned_data
+            id_data = kwargs.get('id')
+            FilmCreateModel.objects.filter(id = id_data).update(**data)
+            return redirect('/film_view/')
+
+

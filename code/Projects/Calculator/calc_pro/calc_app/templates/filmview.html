@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Film</title>
+    </head>
+
+    <body>
+        <table border="1">
+            <tr>
+                <Th> Film Name</Th>
+                <Th> Release Date</Th>
+                <Th> Director</Th>
+
+            </tr>
+            {% for i in data %}
+            <tr>
+                <td>{{i.films_name}}</td>
+                <td>{{i.release_date}}</td>
+                <td>{{i.director}}</td>
+                <td><a href="http://127.0.0.1:8000/film_detail/{{i.id}}">Detail View</a></td>
+                <td><a href="http://127.0.0.1:8000/filmupdate/{{i.id}}">Update View</a></td>
+                <td><a href="">Delete</a></td>
+            </tr>
+
+            {% endfor %}
+        </table>
+    </body>
+
+</html>
