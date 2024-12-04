@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.contrib.auth.models import User
 
 class Transaction(models.Model):
 
@@ -36,3 +36,4 @@ class Transaction(models.Model):
 
     priority = models.CharField(max_length=200,choices=PRIORITY_OPTIONS,default="NEED")
 
+    owner = models.ForeignKey(User,on_delete=models.CASCADE)
