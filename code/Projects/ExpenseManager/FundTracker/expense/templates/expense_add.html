@@ -1,17 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>expense</title>
-</head>
-<body>
-    <form method="post">
-        {% csrf_token %}
-        <table>
-            {{form.as_table}}
-        </table>
-        <input type="submit">
-    </form>
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block main_block %}
+<div class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6 p-4 border border-2 shadow rounded">
+            <form method="post">
+                {% csrf_token %}
+
+                {{form}}
+                <div class="text-center">
+                    <input class="btn btn-outline-info px-4" type="submit">
+                </div>
+            </form>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+{% endblock %}
