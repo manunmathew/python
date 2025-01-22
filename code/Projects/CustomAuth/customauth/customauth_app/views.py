@@ -1,13 +1,21 @@
 from django.shortcuts import render, redirect
-from customauth_app.forms import SignUpForm,SignInForm
+from customauth_app.forms import SignUpForm,SignInForm,UserProfileForm
 from django.views.generic import View
-from customauth_app.models import User
+from customauth_app.models import User,Profile
 from django.contrib import messages
 from django.contrib.auth import authenticate,login
+from django.core.mail import send_mail
 # Create your views here.
 
 def send_otp(user_instance):
     user_instance.generate_otp()
+    send_mail(
+        "Verify otp",
+        user_instance.otp,
+        "manunmathew@gmail.com",
+        [user_instance.email],
+        fail_silently=False
+    )
 
 class SignUpView(View):
     def get(self, request, *args, **kwargs):
@@ -59,5 +67,24 @@ class SignInView(View):
             user_object = authenticate(request, username=uname,password=pwd)
             if user_object:
                 login(request,user_object)
-                return redirect("register")
+                return redirect("index")
         return render(request,"signin.html",{"form": form_instance})
+
+
+class IndexView(View):
+    def get(self, request, *args, **kwargs):
+
+        return render(request, "index.html")
+
+class ProfileUpdateView(View):
+    def get(self, request, *args, **kwargs):
+        profile_instance = request.user.userprofile
+        form_instance =UserProfileForm(instance=profile_instance)
+        return render(request, "profile_edit.html",{"form": form_instance})
+
+    def post(self, request, *args, **kwargs):
+        form_data=request.POST
+        profile_instance=Profile.objects.get(owner=request.user)
+        form_instance=UserProfileForm(form_data,instance=profile_instance,files=request.FILES)
+        
+

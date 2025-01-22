@@ -124,3 +124,14 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'customauth_app.User'
+AUTHENTICATION_BACKENDS=[
+    "django.contrib.auth.backends.ModelBackend",
+    "customauth_app.authentication.EmailBackend",
+    "customauth_app.authentication.PhoneBackend"
+]
+
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_USE_TLS = True
+EMAIL_PORT = 587
+EMAIL_HOST_USER = "manunmathew@gmail.com"
+EMAIL_HOST_PASSWORD = "fduf dgpj ewuc iidw"

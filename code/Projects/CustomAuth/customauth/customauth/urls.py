@@ -22,5 +22,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('register/',views.SignUpView.as_view(),name='register'),
     path('otp/',views.VerifyOtpView.as_view(),name='verifyotp'),
-    path('signin/',views.SignInView.as_view(),name="signin")
+    path('signin/',views.SignInView.as_view(),name="signin"),
+    path('index/',views.IndexView.as_view(),name="index"),
+    path('profile/edit/',views.ProfileUpdateView.as_view(),name="profile-edit"),
 ]
